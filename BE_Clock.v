@@ -24,14 +24,14 @@ module BE_Clock
 	always @(DIV_CLK)
 		begin
 			case(DIV_CLK)
-				4'b000	:	DIVISOR = 25000000;
-				4'b001	:	DIVISOR = 12500000;
-				4'b010	:	DIVISOR =  6250000;
-				4'b011	:	DIVISOR =  3125000;
-				4'b100	:	DIVISOR =  1562500;
-				4'b101	:	DIVISOR =   781250;
-				4'b110	:	DIVISOR =	390625;
-				4'b111	:	DIVISOR = 	195312;
+				3'b000	:	DIVISOR = 25000000;
+				3'b001	:	DIVISOR = 12500000;
+				3'b010	:	DIVISOR =  6250000;
+				3'b011	:	DIVISOR =  3125000;
+				3'b100	:	DIVISOR =  1562500;
+				3'b101	:	DIVISOR =   781250;
+				3'b110	:	DIVISOR =	390625;
+				3'b111	:	DIVISOR = 	195312;
 				default	:	DIVISOR = 25000000;
 			endcase
 		end
