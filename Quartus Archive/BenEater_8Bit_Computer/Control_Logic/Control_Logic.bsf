@@ -1,0 +1,204 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 392 448)
+	(text "Control_Logic" (rect 5 0 85 19)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 363 24 380)(font "Intel Clear" ))
+	(port
+		(pt 328 152)
+		(input)
+		(text "OPCODE[3..0]" (rect 0 0 82 19)(font "Intel Clear" (font_size 8)))
+		(text "OPCODE[3..0]" (rect 221 144 303 163)(font "Intel Clear" (font_size 8)))
+		(line (pt 312 152)(pt 328 152)(line_width 3))
+	)
+	(port
+		(pt 328 224)
+		(input)
+		(text "OPERAND[3..0]" (rect 0 0 90 19)(font "Intel Clear" (font_size 8)))
+		(text "OPERAND[3..0]" (rect 213 216 303 235)(font "Intel Clear" (font_size 8)))
+		(line (pt 312 224)(pt 328 224)(line_width 3))
+	)
+	(port
+		(pt 328 256)
+		(input)
+		(text "ALU_FLGS[7..0]" (rect 0 0 94 19)(font "Intel Clear" (font_size 8)))
+		(text "ALU_FLGS[7..0]" (rect 209 248 303 267)(font "Intel Clear" (font_size 8)))
+		(line (pt 312 256)(pt 328 256)(line_width 3))
+	)
+	(port
+		(pt 328 104)
+		(input)
+		(text "CLR" (rect 0 0 23 19)(font "Intel Clear" (font_size 8)))
+		(text "CLR" (rect 280 96 303 115)(font "Intel Clear" (font_size 8)))
+		(line (pt 312 104)(pt 328 104))
+	)
+	(port
+		(pt 0 32)
+		(input)
+		(text "NOT_CLK" (rect 0 0 57 19)(font "Intel Clear" (font_size 8)))
+		(text "NOT_CLK" (rect 21 27 78 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 56)
+		(output)
+		(text "HALT" (rect 0 0 33 19)(font "Intel Clear" (font_size 8)))
+		(text "HALT" (rect 24 48 57 67)(font "Intel Clear" (font_size 8)))
+		(line (pt 16 56)(pt 0 56))
+	)
+	(port
+		(pt 0 80)
+		(output)
+		(text "JUMP" (rect 0 0 35 19)(font "Intel Clear" (font_size 8)))
+		(text "JUMP" (rect 24 72 59 91)(font "Intel Clear" (font_size 8)))
+		(line (pt 16 80)(pt 0 80))
+	)
+	(port
+		(pt 0 128)
+		(output)
+		(text "PRGM_COUNT_ENBL" (rect 0 0 127 19)(font "Intel Clear" (font_size 8)))
+		(text "PRGM_COUNT_ENBL" (rect 24 120 151 139)(font "Intel Clear" (font_size 8)))
+		(line (pt 16 128)(pt 0 128))
+	)
+	(port
+		(pt 0 152)
+		(output)
+		(text "PRGM_COUNT_OUT" (rect 0 0 122 19)(font "Intel Clear" (font_size 8)))
+		(text "PRGM_COUNT_OUT" (rect 24 144 146 163)(font "Intel Clear" (font_size 8)))
+		(line (pt 16 152)(pt 0 152))
+	)
+	(port
+		(pt 0 176)
+		(output)
+		(text "A_REG_OUT" (rect 0 0 74 19)(font "Intel Clear" (font_size 8)))
+		(text "A_REG_OUT" (rect 24 168 98 187)(font "Intel Clear" (font_size 8)))
+		(line (pt 16 176)(pt 0 176))
+	)
+	(port
+		(pt 0 232)
+		(output)
+		(text "A_REG_IN" (rect 0 0 60 19)(font "Intel Clear" (font_size 8)))
+		(text "A_REG_IN" (rect 24 224 84 243)(font "Intel Clear" (font_size 8)))
+		(line (pt 16 232)(pt 0 232))
+	)
+	(port
+		(pt 0 256)
+		(output)
+		(text "ALU_OUT" (rect 0 0 59 19)(font "Intel Clear" (font_size 8)))
+		(text "ALU_OUT" (rect 24 248 83 267)(font "Intel Clear" (font_size 8)))
+		(line (pt 16 256)(pt 0 256))
+	)
+	(port
+		(pt 0 280)
+		(output)
+		(text "SUBTRACT" (rect 0 0 67 19)(font "Intel Clear" (font_size 8)))
+		(text "SUBTRACT" (rect 24 272 91 291)(font "Intel Clear" (font_size 8)))
+		(line (pt 16 280)(pt 0 280))
+	)
+	(port
+		(pt 0 304)
+		(output)
+		(text "ALU_FLGS_OUT" (rect 0 0 97 19)(font "Intel Clear" (font_size 8)))
+		(text "ALU_FLGS_OUT" (rect 24 296 121 315)(font "Intel Clear" (font_size 8)))
+		(line (pt 16 304)(pt 0 304))
+	)
+	(port
+		(pt 0 328)
+		(output)
+		(text "B_REG_OUT" (rect 0 0 74 19)(font "Intel Clear" (font_size 8)))
+		(text "B_REG_OUT" (rect 24 320 98 339)(font "Intel Clear" (font_size 8)))
+		(line (pt 16 328)(pt 0 328))
+	)
+	(port
+		(pt 0 352)
+		(output)
+		(text "B_REG_IN" (rect 0 0 60 19)(font "Intel Clear" (font_size 8)))
+		(text "B_REG_IN" (rect 24 344 84 363)(font "Intel Clear" (font_size 8)))
+		(line (pt 16 352)(pt 0 352))
+	)
+	(port
+		(pt 328 32)
+		(output)
+		(text "RAM_READ_ENABLE" (rect 0 0 121 19)(font "Intel Clear" (font_size 8)))
+		(text "RAM_READ_ENABLE" (rect 186 27 307 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 328 32)(pt 312 32))
+	)
+	(port
+		(pt 328 56)
+		(output)
+		(text "RAM_WRITE_ENABLE" (rect 0 0 127 19)(font "Intel Clear" (font_size 8)))
+		(text "RAM_WRITE_ENABLE" (rect 180 51 307 70)(font "Intel Clear" (font_size 8)))
+		(line (pt 328 56)(pt 312 56))
+	)
+	(port
+		(pt 328 80)
+		(output)
+		(text "INST_REG_OUT" (rect 0 0 95 19)(font "Intel Clear" (font_size 8)))
+		(text "INST_REG_OUT" (rect 212 75 307 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 328 80)(pt 312 80))
+	)
+	(port
+		(pt 328 128)
+		(output)
+		(text "INST_REG_IN" (rect 0 0 81 19)(font "Intel Clear" (font_size 8)))
+		(text "INST_REG_IN" (rect 226 123 307 142)(font "Intel Clear" (font_size 8)))
+		(line (pt 328 128)(pt 312 128))
+	)
+	(port
+		(pt 328 176)
+		(output)
+		(text "MEMORY_ADDRESS_IN" (rect 0 0 140 19)(font "Intel Clear" (font_size 8)))
+		(text "MEMORY_ADDRESS_IN" (rect 167 171 307 190)(font "Intel Clear" (font_size 8)))
+		(line (pt 328 176)(pt 312 176))
+	)
+	(port
+		(pt 328 200)
+		(output)
+		(text "MAR_ENABLE" (rect 0 0 81 19)(font "Intel Clear" (font_size 8)))
+		(text "MAR_ENABLE" (rect 226 195 307 214)(font "Intel Clear" (font_size 8)))
+		(line (pt 328 200)(pt 312 200))
+	)
+	(port
+		(pt 328 280)
+		(output)
+		(text "DB_ENABLE" (rect 0 0 71 19)(font "Intel Clear" (font_size 8)))
+		(text "DB_ENABLE" (rect 236 275 307 294)(font "Intel Clear" (font_size 8)))
+		(line (pt 328 280)(pt 312 280))
+	)
+	(port
+		(pt 328 312)
+		(output)
+		(text "OUTPUT_IN" (rect 0 0 73 19)(font "Intel Clear" (font_size 8)))
+		(text "OUTPUT_IN" (rect 234 307 307 326)(font "Intel Clear" (font_size 8)))
+		(line (pt 328 312)(pt 312 312))
+	)
+	(port
+		(pt 328 336)
+		(output)
+		(text "CONTROL_FLAGS_OUT[15..0]" (rect 0 0 180 19)(font "Intel Clear" (font_size 8)))
+		(text "CONTROL_FLAGS_OUT[15..0]" (rect 127 331 307 350)(font "Intel Clear" (font_size 8)))
+		(line (pt 328 336)(pt 312 336)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 312 368))
+	)
+)

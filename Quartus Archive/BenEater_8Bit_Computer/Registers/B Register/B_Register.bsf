@@ -1,0 +1,85 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 344 192)
+	(text "B_Register" (rect 5 0 68 19)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 107 24 124)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "B_REG_OUT_EN" (rect 0 0 97 19)(font "Intel Clear" (font_size 8)))
+		(text "B_REG_OUT_EN" (rect 21 27 118 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "B_REG_IN_EN" (rect 0 0 83 19)(font "Intel Clear" (font_size 8)))
+		(text "B_REG_IN_EN" (rect 21 43 104 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 280 88)
+		(input)
+		(text "B_REG_IN[7..0]" (rect 0 0 90 19)(font "Intel Clear" (font_size 8)))
+		(text "B_REG_IN[7..0]" (rect 165 80 255 99)(font "Intel Clear" (font_size 8)))
+		(line (pt 264 88)(pt 280 88)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "CLK" (rect 0 0 23 19)(font "Intel Clear" (font_size 8)))
+		(text "CLK" (rect 21 75 44 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "CLR" (rect 0 0 23 19)(font "Intel Clear" (font_size 8)))
+		(text "CLR" (rect 21 91 44 110)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 280 32)
+		(output)
+		(text "B_REG_OUT_DB[7..0]" (rect 0 0 129 19)(font "Intel Clear" (font_size 8)))
+		(text "B_REG_OUT_DB[7..0]" (rect 130 27 259 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 280 32)(pt 264 32)(line_width 3))
+	)
+	(port
+		(pt 280 48)
+		(output)
+		(text "B_REG_DISPLAY[7..0]" (rect 0 0 130 19)(font "Intel Clear" (font_size 8)))
+		(text "B_REG_DISPLAY[7..0]" (rect 129 43 259 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 280 48)(pt 264 48)(line_width 3))
+	)
+	(port
+		(pt 280 72)
+		(output)
+		(text "B_REG_ALU[7..0]" (rect 0 0 102 19)(font "Intel Clear" (font_size 8)))
+		(text "B_REG_ALU[7..0]" (rect 157 67 259 86)(font "Intel Clear" (font_size 8)))
+		(line (pt 280 72)(pt 264 72)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 264 112))
+	)
+)

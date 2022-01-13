@@ -1,0 +1,209 @@
+// Copyright (C) 2018  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// PROGRAM		"Quartus Prime"
+// VERSION		"Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition"
+// CREATED		"Sat Jan 08 21:24:16 2022"
+
+module ALU(
+	CLK,
+	SUBTRACT,
+	ALU_OUT,
+	ALU_FLAGS_OUT,
+	A_REGISTER_IN,
+	B_REGISTER_IN,
+	ALU_DB,
+	ALU_DISPLAY,
+	CPU_Flags
+);
+
+
+input wire	CLK;
+input wire	SUBTRACT;
+input wire	ALU_OUT;
+input wire	ALU_FLAGS_OUT;
+input wire	[7:0] A_REGISTER_IN;
+input wire	[7:0] B_REGISTER_IN;
+output wire	[7:0] ALU_DB;
+output wire	[7:0] ALU_DISPLAY;
+output wire	[7:0] CPU_Flags;
+
+wire	[7:0] A_REG;
+wire	[7:0] ALU_DB_ALTERA_SYNTHESIZED;
+wire	[7:0] ALU_DISP;
+wire	[7:0] B_Reg;
+wire	[7:0] CPU_Flags_ALTERA_SYNTHESIZED;
+wire	SYNTHESIZED_WIRE_33;
+wire	SYNTHESIZED_WIRE_2;
+wire	SYNTHESIZED_WIRE_3;
+wire	SYNTHESIZED_WIRE_7;
+wire	SYNTHESIZED_WIRE_8;
+wire	SYNTHESIZED_WIRE_9;
+wire	SYNTHESIZED_WIRE_10;
+wire	SYNTHESIZED_WIRE_11;
+wire	SYNTHESIZED_WIRE_12;
+wire	SYNTHESIZED_WIRE_13;
+wire	SYNTHESIZED_WIRE_14;
+wire	SYNTHESIZED_WIRE_15;
+wire	SYNTHESIZED_WIRE_16;
+wire	SYNTHESIZED_WIRE_17;
+wire	SYNTHESIZED_WIRE_18;
+wire	SYNTHESIZED_WIRE_19;
+wire	SYNTHESIZED_WIRE_20;
+wire	SYNTHESIZED_WIRE_21;
+wire	SYNTHESIZED_WIRE_22;
+wire	SYNTHESIZED_WIRE_23;
+wire	SYNTHESIZED_WIRE_34;
+wire	SYNTHESIZED_WIRE_29;
+wire	SYNTHESIZED_WIRE_30;
+wire	SYNTHESIZED_WIRE_31;
+wire	SYNTHESIZED_WIRE_32;
+
+assign	SYNTHESIZED_WIRE_33 = 0;
+
+
+
+
+IC_74LS173_RTL	b2v_173_1(
+	.CLK(CLK),
+	.bG1(SYNTHESIZED_WIRE_33),
+	.bG2(SYNTHESIZED_WIRE_33),
+	.D_1(SYNTHESIZED_WIRE_2),
+	.D_2(SYNTHESIZED_WIRE_3),
+	.D_3(SYNTHESIZED_WIRE_33),
+	.D_4(SYNTHESIZED_WIRE_33),
+	.CLR(SYNTHESIZED_WIRE_33),
+	.Q_1(SYNTHESIZED_WIRE_31),
+	.Q_2(SYNTHESIZED_WIRE_30),
+	.Q_3(SYNTHESIZED_WIRE_29),
+	.Q_4(SYNTHESIZED_WIRE_34));
+
+
+IC_74LS283_RTL	b2v_283_1(
+	.B4(SYNTHESIZED_WIRE_7),
+	.A4(A_REG[7]),
+	.B3(SYNTHESIZED_WIRE_8),
+	.A3(A_REG[6]),
+	.B2(SYNTHESIZED_WIRE_9),
+	.A2(A_REG[5]),
+	.B1(SYNTHESIZED_WIRE_10),
+	.A1(A_REG[4]),
+	.C_IN(SYNTHESIZED_WIRE_11),
+	.C_OUT(SYNTHESIZED_WIRE_32),
+	.SUM_4(ALU_DISP[7]),
+	.SUM_3(ALU_DISP[6]),
+	.SUM_2(ALU_DISP[5]),
+	.SUM_1(ALU_DISP[4]));
+
+
+IC_74LS283_RTL	b2v_283_2(
+	.B4(SYNTHESIZED_WIRE_12),
+	.A4(A_REG[3]),
+	.B3(SYNTHESIZED_WIRE_13),
+	.A3(A_REG[2]),
+	.B2(SYNTHESIZED_WIRE_14),
+	.A2(A_REG[1]),
+	.B1(SYNTHESIZED_WIRE_15),
+	.A1(A_REG[0]),
+	.C_IN(SUBTRACT),
+	.C_OUT(SYNTHESIZED_WIRE_11),
+	.SUM_4(ALU_DISP[3]),
+	.SUM_3(ALU_DISP[2]),
+	.SUM_2(ALU_DISP[1]),
+	.SUM_1(ALU_DISP[0]));
+
+assign	SYNTHESIZED_WIRE_20 = SYNTHESIZED_WIRE_16 & SYNTHESIZED_WIRE_17;
+
+assign	SYNTHESIZED_WIRE_21 = SYNTHESIZED_WIRE_18 & SYNTHESIZED_WIRE_19;
+
+assign	SYNTHESIZED_WIRE_3 = SYNTHESIZED_WIRE_20 & SYNTHESIZED_WIRE_21;
+
+
+
+IC_74LS245AB_RTL	b2v_HEX_BUF_1(
+	.bOE(SYNTHESIZED_WIRE_22),
+	.A1(ALU_DISP[7]),
+	.A2(ALU_DISP[6]),
+	.A3(ALU_DISP[5]),
+	.A4(ALU_DISP[4]),
+	.A5(ALU_DISP[3]),
+	.A6(ALU_DISP[2]),
+	.A7(ALU_DISP[1]),
+	.A8(ALU_DISP[0]),
+	.B1(ALU_DB_ALTERA_SYNTHESIZED[7]),
+	.B2(ALU_DB_ALTERA_SYNTHESIZED[6]),
+	.B3(ALU_DB_ALTERA_SYNTHESIZED[5]),
+	.B4(ALU_DB_ALTERA_SYNTHESIZED[4]),
+	.B5(ALU_DB_ALTERA_SYNTHESIZED[3]),
+	.B6(ALU_DB_ALTERA_SYNTHESIZED[2]),
+	.B7(ALU_DB_ALTERA_SYNTHESIZED[1]),
+	.B8(ALU_DB_ALTERA_SYNTHESIZED[0]));
+
+
+IC_74LS245AB_RTL	b2v_HEX_BUF_2(
+	.bOE(SYNTHESIZED_WIRE_23),
+	.A1(SYNTHESIZED_WIRE_34),
+	.A2(SYNTHESIZED_WIRE_34),
+	.A3(SYNTHESIZED_WIRE_34),
+	.A4(SYNTHESIZED_WIRE_34),
+	.A5(SYNTHESIZED_WIRE_34),
+	.A6(SYNTHESIZED_WIRE_29),
+	.A7(SYNTHESIZED_WIRE_30),
+	.A8(SYNTHESIZED_WIRE_31),
+	.B1(CPU_Flags_ALTERA_SYNTHESIZED[7]),
+	.B2(CPU_Flags_ALTERA_SYNTHESIZED[6]),
+	.B3(CPU_Flags_ALTERA_SYNTHESIZED[5]),
+	.B4(CPU_Flags_ALTERA_SYNTHESIZED[4]),
+	.B5(CPU_Flags_ALTERA_SYNTHESIZED[3]),
+	.B6(CPU_Flags_ALTERA_SYNTHESIZED[2]),
+	.B7(CPU_Flags_ALTERA_SYNTHESIZED[0]),
+	.B8(CPU_Flags_ALTERA_SYNTHESIZED[1]));
+
+assign	SYNTHESIZED_WIRE_16 = ~(ALU_DISP[6] | ALU_DISP[7]);
+
+assign	SYNTHESIZED_WIRE_17 = ~(ALU_DISP[4] | ALU_DISP[5]);
+
+assign	SYNTHESIZED_WIRE_18 = ~(ALU_DISP[2] | ALU_DISP[3]);
+
+assign	SYNTHESIZED_WIRE_19 = ~(ALU_DISP[0] | ALU_DISP[1]);
+
+assign	SYNTHESIZED_WIRE_22 =  ~ALU_OUT;
+
+assign	SYNTHESIZED_WIRE_23 =  ~ALU_FLAGS_OUT;
+
+assign	SYNTHESIZED_WIRE_7 = SUBTRACT ^ B_Reg[7];
+
+assign	SYNTHESIZED_WIRE_8 = SUBTRACT ^ B_Reg[6];
+
+assign	SYNTHESIZED_WIRE_9 = SUBTRACT ^ B_Reg[5];
+
+assign	SYNTHESIZED_WIRE_10 = SUBTRACT ^ B_Reg[4];
+
+assign	SYNTHESIZED_WIRE_12 = SUBTRACT ^ B_Reg[3];
+
+assign	SYNTHESIZED_WIRE_13 = SUBTRACT ^ B_Reg[2];
+
+assign	SYNTHESIZED_WIRE_14 = SUBTRACT ^ B_Reg[1];
+
+assign	SYNTHESIZED_WIRE_15 = SUBTRACT ^ B_Reg[0];
+
+assign	SYNTHESIZED_WIRE_2 = SYNTHESIZED_WIRE_32 ^ SUBTRACT;
+
+assign	ALU_DB = ALU_DB_ALTERA_SYNTHESIZED;
+assign	B_Reg = B_REGISTER_IN;
+assign	A_REG = A_REGISTER_IN;
+assign	ALU_DISPLAY = ALU_DISP;
+assign	CPU_Flags = CPU_Flags_ALTERA_SYNTHESIZED;
+
+endmodule
