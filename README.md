@@ -24,7 +24,6 @@
 <p style="margin: 0in; font-family: tahoma; font-size: 11.0pt; color: #0e101a;">&nbsp;</p>
 <h2 style="margin: 0in; font-family: Calibri; font-size: 14.0pt; color: #2e75b5;">Approach</h2>
 <p style="margin: 0in; font-family: Calibri; font-size: 11.0pt;">&nbsp;</p>
-<p><cite style="margin: 0in; font-family: Calibri; font-size: 9.0pt; color: #595959;">From &lt;<a href="https://htmeditor.com/author/">https://htmeditor.com/author/</a>&gt; </cite></p>
 </div>
 </div>
 </div>
