@@ -22,7 +22,10 @@
 <p style="margin: 0in; font-family: tahoma; font-size: 11.0pt; color: #0e101a;">&nbsp;</p>
 <p style="margin: 0in; font-family: tahoma; font-size: 11.0pt; color: #0e101a;">The realization approach for each module took one of two paths. Either the module was defined using discrete IC models, or I created a pure Verilog definition. In the former case, I made a schematic file using primary logic gates, and in the latter case, I used design patterns from FPGA reference material. I created the Verilog source code and top-level constraint files for the Terasic FPGA DE10-Lite development board, utilizing a MAX10 FPGA from Alterra. The code repository contains the source files and the project archives from Altera's Quartus Prime software.&nbsp;</p>
 <p style="margin: 0in; font-family: tahoma; font-size: 11.0pt; color: #0e101a;">&nbsp;</p>
-<h2 style="margin: 0in; font-family: Calibri; font-size: 14.0pt; color: #2e75b5;">Approach</h2>
+<h2 style="margin: 0in; font-family: Calibri; font-size: 14.0pt; color: #2e75b5;">Architecture and Approach</h2>
+<p></p>
+<p>The following represents the components in this project. Each component was developed, unit tested, then integrated to produce the final working system. Each of the components were implemented using either Verilog or built up through schematics entry.</p>
+<p><img width="1000" height="563" alt="8-bit Computer Architecture" src="https://user-images.githubusercontent.com/84247829/149633807-c47b26cd-646b-408e-9ace-c59f2ccc3825.png" /></p>
 <p style="margin: 0in; font-family: Calibri; font-size: 11.0pt;">&nbsp;</p>
 </div>
 </div>
