@@ -25,7 +25,7 @@
 <h2 style="margin: 0in; font-family: Calibri; font-size: 14.0pt; color: #2e75b5;">Architecture and Approach</h2>
 <p></p>
 <p>The following represents the components in this project. Each component was developed, unit tested, then integrated to produce the final working system. Each of the components were implemented using either Verilog or built up through schematics entry.</p>
-<p><img width="1000" height="563" alt="8-bit Computer Architecture" src="https://user-images.githubusercontent.com/84247829/149633807-c47b26cd-646b-408e-9ace-c59f2ccc3825.png" /></p>
+<p><img width="1000" height="563" alt="8-bit Computer Architecture" src="https://user-images.githubusercontent.com/84247829/149634418-664100cb-f746-44d2-aa78-7c0944c4cae2.png" /></p>
 <p style="margin: 0in; font-family: Calibri; font-size: 11.0pt;">&nbsp;</p>
 </div>
 </div>
