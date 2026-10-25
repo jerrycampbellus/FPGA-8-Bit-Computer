@@ -1,0 +1,92 @@
+{
+  "recorded_at": "2026-10-14T16:04:00.954107-04:00",
+  "build_id": "26101403",
+  "controller_version": "1.2",
+  "scope": "Documentation and source comments only",
+  "annotated_files": {
+    "tests/tb_board.sv": {
+      "validated_source_sha256": "2c93fa37ab419758a06e2762dafc97fb07217f2064aa469eec12909548e58581",
+      "documented_source_sha256": "9466bad5b7cdaef5e3a7173b4a510a764af6dcff4434b0ab7cb5f39e0b7725d6",
+      "non_comment_token_sha256": "d2d80163286e0d3c82304a6746bff2e8c0660f0ae1b5a7e17ebceae71a4c1e7c",
+      "token_count": 562,
+      "unchanged_executable_tokens": true,
+      "recorded_at": "2026-10-14T16:04:00.954107-04:00"
+    },
+    "tests/tb_controller.sv": {
+      "validated_source_sha256": "5f0719b88aa550962f9a8c737a763b460b634029413af43cae5a677bf8443401",
+      "documented_source_sha256": "da2f88a539988b6559b04a1473c2a60c09fdc72f7fab6d4f6ee5b16bd05b6458",
+      "non_comment_token_sha256": "1f3c85f52e016fb431c20df5ddbb290b3411e84eb2e75baaca313ceb40dc6244",
+      "token_count": 2092,
+      "unchanged_executable_tokens": true,
+      "recorded_at": "2026-10-14T16:04:00.954107-04:00"
+    },
+    "tests/tb_performance.sv": {
+      "validated_source_sha256": "0f0f68a33c3224b63a98a6cb2d416b26eb98f86658979bc17e064aca9d28ab73",
+      "documented_source_sha256": "d206a04d462e7ad0e433d2ea6eed29bd770434fea30b8588e1e1185b390a7057",
+      "non_comment_token_sha256": "5501824eefba4eb738d44ae263df6f4f944cb333b4f6bf797f5d718d285e30a0",
+      "token_count": 1264,
+      "unchanged_executable_tokens": true,
+      "recorded_at": "2026-10-14T16:04:00.954107-04:00"
+    },
+    "tests/tb_tester.sv": {
+      "validated_source_sha256": "675008fc266a98374767ea10b06b43c9a247da2bf2cc0bb0cbef80b379beac3c",
+      "documented_source_sha256": "8db322ecdb729e967fe150ff2e516c29224d673d3048928ca13353cb5bfc8902",
+      "non_comment_token_sha256": "bbdf89c0b3d4d2679dcf8be2e228bee8e4862642f0cae83866ef30f89237b9d2",
+      "token_count": 2277,
+      "unchanged_executable_tokens": true,
+      "recorded_at": "2026-10-14T16:04:00.954107-04:00"
+    },
+    "rtl/board/sdram_tester_top.sv": {
+      "validated_source_sha256": "9d07dd849508efd74bc2def81eb9771c9a06af95b6ccc9662b494c511fc622e5",
+      "documented_source_sha256": "332e5ae693cbe85542130fff07915db338b6482e9661116ef734c2a27acbea88",
+      "non_comment_token_sha256": "52d2261985ab4304b70fb81f2e7401c3d707323670a1cc19f63b3f5f9982781b",
+      "token_count": 1529,
+      "unchanged_executable_tokens": true,
+      "recorded_at": "2026-10-14T16:04:00.954107-04:00"
+    },
+    "rtl/library/sdram_controller.sv": {
+      "validated_source_sha256": "37e53d07063c98b10cbcf88fd1b7cb4c17a86066c4b0738b34588c0a50dfd6de",
+      "documented_source_sha256": "c10f4aeaaa78465e127f1bcb3752c91edd88ebf0fa33376ffbac92fdad8b482e",
+      "non_comment_token_sha256": "0f67a3400c7f50022736ffb31803ece03a429f6736df2cb40451d06ced0f9bea",
+      "token_count": 1896,
+      "unchanged_executable_tokens": true,
+      "recorded_at": "2026-10-14T16:04:00.954107-04:00"
+    },
+    "rtl/tester/tester_regs.sv": {
+      "validated_source_sha256": "261c1d97830dc8e0dc12d24bca7e3390e744bab5c2cf123b7d407af24f6a411b",
+      "documented_source_sha256": "da160b19107c6da1be96ccf63f31f11213cdf62c86a2bd32889652255d6b748b",
+      "non_comment_token_sha256": "0a8c956cd81c2fe2c43be17401430278521040014c9d745b35186f225846be0c",
+      "token_count": 4129,
+      "unchanged_executable_tokens": true,
+      "recorded_at": "2026-10-14T16:04:00.954107-04:00"
+    },
+    "rtl/board/de10_clock.v": {
+      "validated_source_sha256": "d9cb4078fd2b562e8b9f2620ed8042c93cbfabc56499213f62ab4ef78bbd4e13",
+      "documented_source_sha256": "14f0bc58c455349f6caffbdd3dc87762f9d1867f6632d47ab429d5048f7e23fd",
+      "non_comment_token_sha256": "3c251d0c99b416cd5b852a4f05df113cad0c2c5d4d675ce63dfcdb69d0ec7a1e",
+      "token_count": 394,
+      "unchanged_executable_tokens": true,
+      "recorded_at": "2026-10-14T16:04:00.954107-04:00"
+    },
+    "scripts/test.ps1": {
+      "recorded_at": "2026-10-14T16:04:00.954107-04:00",
+      "validated_source_sha256": "be1c3b4169e75f80d11ef2585439ecf3f78da4760b4bdcfa2d4ac19695691ac4",
+      "documented_source_sha256": "495b575849b1da8e044cb7f1d9f8ece4d78418022c6a452c2f99070b111edc44",
+      "token_count": 340,
+      "unchanged_executable_tokens": true,
+      "comparison": "PowerShell parser token kind/text, excluding comments/newlines"
+    }
+  },
+  "checks": {
+    "hdl_non_comment_tokens_unchanged": true,
+    "powershell_code_tokens_unchanged": true,
+    "positive_elaborations": 5,
+    "expected_negative_elaborations": 8,
+    "python_tests_passed": 26,
+    "functional_simulations_rerun": false,
+    "sof_sha256_unchanged": "f9882b262451ea8291a26d3bc196f4333984407eee4a3102cd855e76e7f914eb",
+    "quartus_rebuild": false,
+    "board_reprogrammed": false
+  },
+  "check_log": "documentation-compile-check.txt"
+}

@@ -1,0 +1,685 @@
+{
+  "source_repository": "SDRAM_Tester_Working",
+  "source_commit": "ac7c35debd8dd37b5bf392cfd43dfea5f934c3c2",
+  "snapshot_date_utc": "2026-10-25",
+  "selection": "Committed files only; source working tree and index untouched.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "source_commit_sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "published_sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "unchanged": true
+    },
+    {
+      "path": ".gitignore",
+      "source_commit_sha256": "a3f640b804581caa169d7d5600133a33a54640f85004d194e64c9afec25d2007",
+      "published_sha256": "a3f640b804581caa169d7d5600133a33a54640f85004d194e64c9afec25d2007",
+      "unchanged": true
+    },
+    {
+      "path": "LICENSE",
+      "source_commit_sha256": "df8c05598584c3a1368e65d309ecf6a3c2188a8bcc3c52dcfe4c7248bfaf0e64",
+      "published_sha256": "df8c05598584c3a1368e65d309ecf6a3c2188a8bcc3c52dcfe4c7248bfaf0e64",
+      "unchanged": true
+    },
+    {
+      "path": "README.md",
+      "source_commit_sha256": "3d07a01b69e1e66c5f8364a92dfefa7ed634804013e3474e190c4e4b8a9df676",
+      "published_sha256": "6649e8c1c0cfdc03dac273b0146714299d715909be8027a54bed18521a5fa318",
+      "unchanged": false
+    },
+    {
+      "path": "constraints/de10_lite_50mhz.sdc",
+      "source_commit_sha256": "0fc428f650da91e55641c461bf701df5568522c8f1b58aff468adf043e48b7a6",
+      "published_sha256": "0fc428f650da91e55641c461bf701df5568522c8f1b58aff468adf043e48b7a6",
+      "unchanged": true
+    },
+    {
+      "path": "docs/API.md",
+      "source_commit_sha256": "b9c7687c175c422558e6a93a842e20d53810f17a0d01054d888645a512040a06",
+      "published_sha256": "b9c7687c175c422558e6a93a842e20d53810f17a0d01054d888645a512040a06",
+      "unchanged": true
+    },
+    {
+      "path": "docs/BOARD.md",
+      "source_commit_sha256": "e58e0b57fddcaf5052cb4b391463324756fb28919623f3cea97e4321171db4c0",
+      "published_sha256": "e58e0b57fddcaf5052cb4b391463324756fb28919623f3cea97e4321171db4c0",
+      "unchanged": true
+    },
+    {
+      "path": "docs/INTERFACE.md",
+      "source_commit_sha256": "94160b40442fe1c0fe05e1315ec95dfa93481f75e95c2bfa560327c365d4bfd8",
+      "published_sha256": "94160b40442fe1c0fe05e1315ec95dfa93481f75e95c2bfa560327c365d4bfd8",
+      "unchanged": true
+    },
+    {
+      "path": "docs/PERFORMANCE.md",
+      "source_commit_sha256": "8c812419ff581c71ce5bf052f6feab5b19c2f8107498c657da7ff2d93c82e089",
+      "published_sha256": "8c812419ff581c71ce5bf052f6feab5b19c2f8107498c657da7ff2d93c82e089",
+      "unchanged": true
+    },
+    {
+      "path": "docs/PROGRESS.md",
+      "source_commit_sha256": "bd4ba9c4b8f07eda164c4cace7b8d72f41d177ed80214596c021c6a1b41f7d56",
+      "published_sha256": "bd4ba9c4b8f07eda164c4cace7b8d72f41d177ed80214596c021c6a1b41f7d56",
+      "unchanged": true
+    },
+    {
+      "path": "docs/TESTBENCH.md",
+      "source_commit_sha256": "bf42dc04bb44177a151ae3921ab007a3dbe54cdc8dc5a6c55fa1c901e259478d",
+      "published_sha256": "4fdfa90f6d6f45b56b9abf60a852dd66396623391e4a74ec6a35952cd7a576a7",
+      "unchanged": false
+    },
+    {
+      "path": "docs/TIMING.md",
+      "source_commit_sha256": "f9b98560642b558b414b6b76ed4b4d9cadfc9d2780ee88ebce2225826b2936df",
+      "published_sha256": "f9b98560642b558b414b6b76ed4b4d9cadfc9d2780ee88ebce2225826b2936df",
+      "unchanged": true
+    },
+    {
+      "path": "docs/Tester State Definition.txt",
+      "source_commit_sha256": "f135694bdf6899f21afa5c9243010e9765af9c3e6f8b6a4aa11df2c96f5e6bd8",
+      "published_sha256": "f135694bdf6899f21afa5c9243010e9765af9c3e6f8b6a4aa11df2c96f5e6bd8",
+      "unchanged": true
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "source_commit_sha256": "477895f63968eefa7640e037fc60539e21718891466b780b095774f73477b57f",
+      "published_sha256": "477895f63968eefa7640e037fc60539e21718891466b780b095774f73477b57f",
+      "unchanged": true
+    },
+    {
+      "path": "docs/VALIDATION_BL1.md",
+      "source_commit_sha256": "c17dfbf09f07dc53d28218f64ba61436391d37aaab8c2124f636ad32c103be92",
+      "published_sha256": "c17dfbf09f07dc53d28218f64ba61436391d37aaab8c2124f636ad32c103be92",
+      "unchanged": true
+    },
+    {
+      "path": "docs/VALIDATION_CONFIG.md",
+      "source_commit_sha256": "961e6757b5c103155ae67cb9d2529b8868d5db670b963bf33e802928bee8194c",
+      "published_sha256": "961e6757b5c103155ae67cb9d2529b8868d5db670b963bf33e802928bee8194c",
+      "unchanged": true
+    },
+    {
+      "path": "docs/VALIDATION_PAGE.md",
+      "source_commit_sha256": "9ee5b60c373938e5a0a98b970af29a6ccc3e70f30ad891628c792480649b047e",
+      "published_sha256": "9ee5b60c373938e5a0a98b970af29a6ccc3e70f30ad891628c792480649b047e",
+      "unchanged": true
+    },
+    {
+      "path": "docs/WARNINGS.md",
+      "source_commit_sha256": "a237f01b39a845661ee4f7a7d8860c4406016ecbca676ebb2a2fbc7c737d0b5f",
+      "published_sha256": "09023eb398f6abb89d888c1fa82f2d94868c22169b9b2a444a1c36df319e6b19",
+      "unchanged": false
+    },
+    {
+      "path": "docs/validation-config/baseline-hardware-benchmark.json",
+      "source_commit_sha256": "2781d872da2b383f550d9dd2b69deb592c5ae562ff9f23a5502bf95f352ada89",
+      "published_sha256": "2781d872da2b383f550d9dd2b69deb592c5ae562ff9f23a5502bf95f352ada89",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-config/documentation-check.json",
+      "source_commit_sha256": "4654b70d39372ebf99960bc7ed80d56394056af66072b3b7a664572c175563ba",
+      "published_sha256": "4654b70d39372ebf99960bc7ed80d56394056af66072b3b7a664572c175563ba",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-config/documentation-compile-check.txt",
+      "source_commit_sha256": "cd1120f0f566e2d03082b2a5a6837103ce8bbd750ae9bd32a8385a59956b9a92",
+      "published_sha256": "cd1120f0f566e2d03082b2a5a6837103ce8bbd750ae9bd32a8385a59956b9a92",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-config/final-fit.txt",
+      "source_commit_sha256": "e7292dc9a7912f9bbc0442ee36527720cedcb04ec91deaefe391c75cca05bbe7",
+      "published_sha256": "e7292dc9a7912f9bbc0442ee36527720cedcb04ec91deaefe391c75cca05bbe7",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-config/final-status.json",
+      "source_commit_sha256": "0c6f4351b90c6e3561aa658c2993bb3bc62d7488917fb5a6b504fa4c02a52032",
+      "published_sha256": "0c6f4351b90c6e3561aa658c2993bb3bc62d7488917fb5a6b504fa4c02a52032",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-config/final-timing.txt",
+      "source_commit_sha256": "06fb804ed2f7c6a39ce2336475f0707d07f1fac27e351218e1b5c7e99c2ffa20",
+      "published_sha256": "06fb804ed2f7c6a39ce2336475f0707d07f1fac27e351218e1b5c7e99c2ffa20",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-config/final-unconstrained.txt",
+      "source_commit_sha256": "a5a75e1f4e483b5c75bce1214f2f6f4360cad7fb70ef1595dbf66fb0726059d6",
+      "published_sha256": "a5a75e1f4e483b5c75bce1214f2f6f4360cad7fb70ef1595dbf66fb0726059d6",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-config/hardware-benchmark.json",
+      "source_commit_sha256": "58f923cf15c1d8b3a834863a2476ef3de62a1681f044a721cbbaf5e6868ba636",
+      "published_sha256": "58f923cf15c1d8b3a834863a2476ef3de62a1681f044a721cbbaf5e6868ba636",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-config/hardware-results.json",
+      "source_commit_sha256": "7ad57c89fd55334557ae6bec52174df93146f1e79df0b6fc6d3a23662c1c7e1f",
+      "published_sha256": "7ad57c89fd55334557ae6bec52174df93146f1e79df0b6fc6d3a23662c1c7e1f",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-config/programming.txt",
+      "source_commit_sha256": "109148fbf41afdfb3abd429a5a543fd3cef674709ef11143cead8ae8356cb773",
+      "published_sha256": "109148fbf41afdfb3abd429a5a543fd3cef674709ef11143cead8ae8356cb773",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-config/quartus-invalid-cas.txt",
+      "source_commit_sha256": "093cb7af2de19f125b6f12d755dd01c6f3fbd8560973ac068ea6bcc3fb3c1d24",
+      "published_sha256": "093cb7af2de19f125b6f12d755dd01c6f3fbd8560973ac068ea6bcc3fb3c1d24",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-config/regression-summary.txt",
+      "source_commit_sha256": "9430e6225fc33c27e97014939ac1055dbf480f1ac87c96e8e05df3351872f342",
+      "published_sha256": "9430e6225fc33c27e97014939ac1055dbf480f1ac87c96e8e05df3351872f342",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-config/simulation-performance.json",
+      "source_commit_sha256": "e4b1e65e40b28c1c62694591b37361320c227a3816daacebfc3ab088ba62fa73",
+      "published_sha256": "e4b1e65e40b28c1c62694591b37361320c227a3816daacebfc3ab088ba62fa73",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-config/source-manifest.json",
+      "source_commit_sha256": "2e6aad0bc359531744953183ef51f946d5f034b115219ef05e264433a6057b8f",
+      "published_sha256": "2e6aad0bc359531744953183ef51f946d5f034b115219ef05e264433a6057b8f",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-page/cli-files.json",
+      "source_commit_sha256": "df6192fe8272f7ad2084b1da62b7ac093ab56d2cb304c148f10bf01e3b838917",
+      "published_sha256": "df6192fe8272f7ad2084b1da62b7ac093ab56d2cb304c148f10bf01e3b838917",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-page/cli-read.json",
+      "source_commit_sha256": "5b5f6acbd477b674c65fb0e63f5546b27228e2b04d54374fa2755fe2cd9a51e0",
+      "published_sha256": "5b5f6acbd477b674c65fb0e63f5546b27228e2b04d54374fa2755fe2cd9a51e0",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-page/cli-write.json",
+      "source_commit_sha256": "28b20dd188d7090bea0e89370b39a09ffd5f74d186b87908daa6ada4c462543a",
+      "published_sha256": "28b20dd188d7090bea0e89370b39a09ffd5f74d186b87908daa6ada4c462543a",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-page/final-fit.txt",
+      "source_commit_sha256": "d38e4afa5d4aaa52b3aaec57fe03d638b7ba3b3451034a7af0a79c323763afd8",
+      "published_sha256": "d38e4afa5d4aaa52b3aaec57fe03d638b7ba3b3451034a7af0a79c323763afd8",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-page/final-status.json",
+      "source_commit_sha256": "b3a16308b77144d60b33d23c9bc26d893425295a962ee063e5cadce4d34afd1b",
+      "published_sha256": "b3a16308b77144d60b33d23c9bc26d893425295a962ee063e5cadce4d34afd1b",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-page/final-timing.txt",
+      "source_commit_sha256": "3ec7e3582016c464daa7da28308186b9ebb8e92063e16af022e56d1dddd3fbf1",
+      "published_sha256": "3ec7e3582016c464daa7da28308186b9ebb8e92063e16af022e56d1dddd3fbf1",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-page/final-unconstrained.txt",
+      "source_commit_sha256": "a5a75e1f4e483b5c75bce1214f2f6f4360cad7fb70ef1595dbf66fb0726059d6",
+      "published_sha256": "a5a75e1f4e483b5c75bce1214f2f6f4360cad7fb70ef1595dbf66fb0726059d6",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-page/hardware-results.json",
+      "source_commit_sha256": "c31ceba45cb5a619d5d2d084c8abc5a6b5a198c8c5beebe9c374df10c24e96f3",
+      "published_sha256": "c31ceba45cb5a619d5d2d084c8abc5a6b5a198c8c5beebe9c374df10c24e96f3",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-page/programming.txt",
+      "source_commit_sha256": "81420cb337e9f34ec03dfd2c47f9d199e56c64d1446bae9c23a83604379440da",
+      "published_sha256": "81420cb337e9f34ec03dfd2c47f9d199e56c64d1446bae9c23a83604379440da",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-page/regression-summary.txt",
+      "source_commit_sha256": "e842ee2212b2f7ea62351239607154be495df2e2b306ecd8a6061e9e2ac56f94",
+      "published_sha256": "e842ee2212b2f7ea62351239607154be495df2e2b306ecd8a6061e9e2ac56f94",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-page/source-manifest.json",
+      "source_commit_sha256": "fb4e38ba41e7dc856448655f789bb0ae819f86e5fdb17ee6ebd3549adade0752",
+      "published_sha256": "fb4e38ba41e7dc856448655f789bb0ae819f86e5fdb17ee6ebd3549adade0752",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-warnings/adapter-tests.txt",
+      "source_commit_sha256": "a98d2065dada614a38489c0b436035caf75200a226c695fe897a81b23983c06c",
+      "published_sha256": "a98d2065dada614a38489c0b436035caf75200a226c695fe897a81b23983c06c",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-warnings/final-fit.txt",
+      "source_commit_sha256": "629bc21ddba18c24b8480fb3b5e9e80fa34ab58fbcce713579c3192e0bae3832",
+      "published_sha256": "629bc21ddba18c24b8480fb3b5e9e80fa34ab58fbcce713579c3192e0bae3832",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-warnings/final-status.json",
+      "source_commit_sha256": "2be0877a9bdd418b09037ef5d2ceb6606f493f3287b7ff2de081238ecec6a365",
+      "published_sha256": "2be0877a9bdd418b09037ef5d2ceb6606f493f3287b7ff2de081238ecec6a365",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-warnings/final-timing.txt",
+      "source_commit_sha256": "aa1a5ff16abab17e9ba1186d9e953fb100bfeb4bd7e5ffef40cf35135ecf4389",
+      "published_sha256": "aa1a5ff16abab17e9ba1186d9e953fb100bfeb4bd7e5ffef40cf35135ecf4389",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-warnings/final-unconstrained.txt",
+      "source_commit_sha256": "a5a75e1f4e483b5c75bce1214f2f6f4360cad7fb70ef1595dbf66fb0726059d6",
+      "published_sha256": "a5a75e1f4e483b5c75bce1214f2f6f4360cad7fb70ef1595dbf66fb0726059d6",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-warnings/hardware-results.json",
+      "source_commit_sha256": "ca2e9e600f0ef927c04a88d200f0800bb41f731d455fde15696ed53696b868c2",
+      "published_sha256": "ca2e9e600f0ef927c04a88d200f0800bb41f731d455fde15696ed53696b868c2",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-warnings/ip-generation.txt",
+      "source_commit_sha256": "256a6628457fa9443243c0c6d223a4f0048d872495b47ffba11f64a5acc1306d",
+      "published_sha256": "256a6628457fa9443243c0c6d223a4f0048d872495b47ffba11f64a5acc1306d",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-warnings/pre-program-status.json",
+      "source_commit_sha256": "53ef66fa3cce336b89ae1d84616d81f1df6b167fab49a344c286c55add7fa158",
+      "published_sha256": "53ef66fa3cce336b89ae1d84616d81f1df6b167fab49a344c286c55add7fa158",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-warnings/programming.txt",
+      "source_commit_sha256": "781e34e7abdb4012800d8daf8aac33a5a12e96a90c029863907fb18353f3b355",
+      "published_sha256": "781e34e7abdb4012800d8daf8aac33a5a12e96a90c029863907fb18353f3b355",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-warnings/regression-summary.txt",
+      "source_commit_sha256": "36a89788922edee7c30f4d301951d0dbfb501c1cce0e88c0b5b358474e9b6541",
+      "published_sha256": "36a89788922edee7c30f4d301951d0dbfb501c1cce0e88c0b5b358474e9b6541",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-warnings/source-manifest.json",
+      "source_commit_sha256": "c565f41402521f457503e092cae9f8031f64ed603aa2c71104cab64fb7af58bc",
+      "published_sha256": "c565f41402521f457503e092cae9f8031f64ed603aa2c71104cab64fb7af58bc",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation-warnings/warning-audit.json",
+      "source_commit_sha256": "410dea5cc0e610a37ac94454ca7fdbc005fa3a568131fdf1823ab9377b710715",
+      "published_sha256": "410dea5cc0e610a37ac94454ca7fdbc005fa3a568131fdf1823ab9377b710715",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation/baseline-fit.txt",
+      "source_commit_sha256": "6d55a86d9d5814014c1b49230f291814c4e117be7a74071375e2b8a55ec0dbf8",
+      "published_sha256": "6d55a86d9d5814014c1b49230f291814c4e117be7a74071375e2b8a55ec0dbf8",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation/baseline-timing.txt",
+      "source_commit_sha256": "e9cc69d5284d05e9e0f143f402007b762f416c030a8aa4155e397fa7ace1957f",
+      "published_sha256": "e9cc69d5284d05e9e0f143f402007b762f416c030a8aa4155e397fa7ace1957f",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation/final-fit.txt",
+      "source_commit_sha256": "34d25ee379b15c6b138a7eda52a8aebdff1c2555726fdb4c5f227677a10213ea",
+      "published_sha256": "34d25ee379b15c6b138a7eda52a8aebdff1c2555726fdb4c5f227677a10213ea",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation/final-timing.txt",
+      "source_commit_sha256": "9cc66d5dedc443959e9d194cc2bb7374b9f4e929a86329e24931eedd5e01482c",
+      "published_sha256": "9cc66d5dedc443959e9d194cc2bb7374b9f4e929a86329e24931eedd5e01482c",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation/final-unconstrained.txt",
+      "source_commit_sha256": "a5a75e1f4e483b5c75bce1214f2f6f4360cad7fb70ef1595dbf66fb0726059d6",
+      "published_sha256": "a5a75e1f4e483b5c75bce1214f2f6f4360cad7fb70ef1595dbf66fb0726059d6",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation/hardware-results.json",
+      "source_commit_sha256": "fc0190614068bbc22dc59fd83f36ab71cee76cb256ae596985b1ac0cf945f773",
+      "published_sha256": "fc0190614068bbc22dc59fd83f36ab71cee76cb256ae596985b1ac0cf945f773",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation/local-controls-results.json",
+      "source_commit_sha256": "49c98ba1612ad9846e4365d26b2ed72678892c6a688bdef3faffc276a1675ab0",
+      "published_sha256": "49c98ba1612ad9846e4365d26b2ed72678892c6a688bdef3faffc276a1675ab0",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation/programming.txt",
+      "source_commit_sha256": "a566259f6b9224540e3db7041b56fb91633afbc64b9852f314b824433004bddd",
+      "published_sha256": "a566259f6b9224540e3db7041b56fb91633afbc64b9852f314b824433004bddd",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation/regression-summary.txt",
+      "source_commit_sha256": "a036f6ee459d6e927055fd02a4bcb26003ce82bd3a801a6199e81b48f892bb3b",
+      "published_sha256": "a036f6ee459d6e927055fd02a4bcb26003ce82bd3a801a6199e81b48f892bb3b",
+      "unchanged": true
+    },
+    {
+      "path": "docs/validation/source-manifest.json",
+      "source_commit_sha256": "3c31ea5fe7ffdc07932707c126922ae22b42d16eaa6558b0e7c935daf1f2883c",
+      "published_sha256": "3c31ea5fe7ffdc07932707c126922ae22b42d16eaa6558b0e7c935daf1f2883c",
+      "unchanged": true
+    },
+    {
+      "path": "host/bridge.tcl",
+      "source_commit_sha256": "f69f5f78dbac808acd6b8d68097137b59053de6d9cfc64912cb03bc33b87454c",
+      "published_sha256": "f69f5f78dbac808acd6b8d68097137b59053de6d9cfc64912cb03bc33b87454c",
+      "unchanged": true
+    },
+    {
+      "path": "host/sdram_client/__init__.py",
+      "source_commit_sha256": "1bd328a2f7c6846969b55cbb50cd86d63875300afc743f5aa5518599820a39f5",
+      "published_sha256": "1bd328a2f7c6846969b55cbb50cd86d63875300afc743f5aa5518599820a39f5",
+      "unchanged": true
+    },
+    {
+      "path": "host/sdram_client/__main__.py",
+      "source_commit_sha256": "5877fa572bd29b0a82e9ec12ddb1c05c6ef1f5eebb528732891748aa4fd06e25",
+      "published_sha256": "5877fa572bd29b0a82e9ec12ddb1c05c6ef1f5eebb528732891748aa4fd06e25",
+      "unchanged": true
+    },
+    {
+      "path": "host/sdram_client/client.py",
+      "source_commit_sha256": "0b158b101b74afee20ef89c27a8c1ec5dc08bb06991a7c2a9c83ef0838a05a96",
+      "published_sha256": "0b158b101b74afee20ef89c27a8c1ec5dc08bb06991a7c2a9c83ef0838a05a96",
+      "unchanged": true
+    },
+    {
+      "path": "host/sdram_client/mock.py",
+      "source_commit_sha256": "de998db634f7741c620fa9303eb70123810b6368d7bcaea65adcdc6db65283fe",
+      "published_sha256": "de998db634f7741c620fa9303eb70123810b6368d7bcaea65adcdc6db65283fe",
+      "unchanged": true
+    },
+    {
+      "path": "host/sdram_client/transport.py",
+      "source_commit_sha256": "b137217f5b99bc13c5ab16f637020b5162458cee01e135b23a39853bf2a5ad55",
+      "published_sha256": "b137217f5b99bc13c5ab16f637020b5162458cee01e135b23a39853bf2a5ad55",
+      "unchanged": true
+    },
+    {
+      "path": "quartus_project/SDRAM_Test_Harness.qpf",
+      "source_commit_sha256": "94ec83a351810b02effcbbe602ef303815d7d9bc7446aa9e3c6645853db2cb48",
+      "published_sha256": "94ec83a351810b02effcbbe602ef303815d7d9bc7446aa9e3c6645853db2cb48",
+      "unchanged": true
+    },
+    {
+      "path": "quartus_project/SDRAM_Test_Harness.qsf",
+      "source_commit_sha256": "58083adc59d4c459395118fa4993db58166541377da6196c93f83f0edbbedfcd",
+      "published_sha256": "58083adc59d4c459395118fa4993db58166541377da6196c93f83f0edbbedfcd",
+      "unchanged": true
+    },
+    {
+      "path": "rtl/board/de10_clock.v",
+      "source_commit_sha256": "7194888e9c2bf53e264cf8522246eaee4ed6162cdb135b09da8fe95835efc863",
+      "published_sha256": "7194888e9c2bf53e264cf8522246eaee4ed6162cdb135b09da8fe95835efc863",
+      "unchanged": true
+    },
+    {
+      "path": "rtl/board/sdram_tester_top.sv",
+      "source_commit_sha256": "e0a9803d76ad80d9e4fdbe915aa3f979fbb77cd196c80a1a2b0df4a819c0c8fe",
+      "published_sha256": "e0a9803d76ad80d9e4fdbe915aa3f979fbb77cd196c80a1a2b0df4a819c0c8fe",
+      "unchanged": true
+    },
+    {
+      "path": "rtl/library/sdram_controller.sv",
+      "source_commit_sha256": "02bce3a81b9c3d9964c44a5c609aeb9becdbe6f68eee6cef339f5a6d14a50b99",
+      "published_sha256": "02bce3a81b9c3d9964c44a5c609aeb9becdbe6f68eee6cef339f5a6d14a50b99",
+      "unchanged": true
+    },
+    {
+      "path": "rtl/tester/tester_regs.sv",
+      "source_commit_sha256": "5128383c4bfd7c74acc1797e8489cff2ce86c684c6e31ff83314f212a2cd6173",
+      "published_sha256": "5128383c4bfd7c74acc1797e8489cff2ce86c684c6e31ff83314f212a2cd6173",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/benchmark.py",
+      "source_commit_sha256": "6ca75cafe53e3b1377280557fa24127df06524aa8ad865c89cefca5ca443785c",
+      "published_sha256": "6ca75cafe53e3b1377280557fa24127df06524aa8ad865c89cefca5ca443785c",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/bootstrap_iverilog.py",
+      "source_commit_sha256": "dea1131d201ecaa428df083a9242b8373d39d227a65876cadb2de7ae560479df",
+      "published_sha256": "dea1131d201ecaa428df083a9242b8373d39d227a65876cadb2de7ae560479df",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/build.ps1",
+      "source_commit_sha256": "7ca1a3e4f597d5f7685432914e58e003ed81b75cc56461d31e14d17bd4b7ad7d",
+      "published_sha256": "7ca1a3e4f597d5f7685432914e58e003ed81b75cc56461d31e14d17bd4b7ad7d",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/create_jtag.tcl",
+      "source_commit_sha256": "924d4bc9352624902cb4ab2b9f5dfbbcaf47a20fc453dbff7601b4e247575942",
+      "published_sha256": "924d4bc9352624902cb4ab2b9f5dfbbcaf47a20fc453dbff7601b4e247575942",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/hardware_acceptance.py",
+      "source_commit_sha256": "a9ba6c619f7cdb56993434de2930843695d46f3092bf33ab79677123e6970cb7",
+      "published_sha256": "a9ba6c619f7cdb56993434de2930843695d46f3092bf33ab79677123e6970cb7",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/prepare_jtag.tcl",
+      "source_commit_sha256": "8028630f2631d59dfd7a8d79e9ed5470f65078c2ff483ff0af9b35493359b63b",
+      "published_sha256": "8028630f2631d59dfd7a8d79e9ed5470f65078c2ff483ff0af9b35493359b63b",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/test.ps1",
+      "source_commit_sha256": "7994b9ee6cce6422382bd628cfceb48bc8356c7ddc16b79a085d95be61cefa05",
+      "published_sha256": "7994b9ee6cce6422382bd628cfceb48bc8356c7ddc16b79a085d95be61cefa05",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/test_jtag.ps1",
+      "source_commit_sha256": "ecf2dcb4a55c34ccb704f1ea29e5c73b46ce070d73cd23b276f3d6e2cadc2bef",
+      "published_sha256": "ecf2dcb4a55c34ccb704f1ea29e5c73b46ce070d73cd23b276f3d6e2cadc2bef",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/timing_report.tcl",
+      "source_commit_sha256": "c56ea653d28b0a940677036bcbdced427786e24af479b1652e50e5b36d9cec69",
+      "published_sha256": "c56ea653d28b0a940677036bcbdced427786e24af479b1652e50e5b36d9cec69",
+      "unchanged": true
+    },
+    {
+      "path": "src/ip/jtag_bridge.qsys",
+      "source_commit_sha256": "3e638ddfa9f772806775846b351292891ea2339c1207c2ac8385a1f7aa871387",
+      "published_sha256": "3e638ddfa9f772806775846b351292891ea2339c1207c2ac8385a1f7aa871387",
+      "unchanged": true
+    },
+    {
+      "path": "src/rtl/IS42S16320F.v",
+      "source_commit_sha256": "a84f7454999d844b56f44efd7089132a8422c67de4df796391ee5ad6ef64eb68",
+      "published_sha256": "a84f7454999d844b56f44efd7089132a8422c67de4df796391ee5ad6ef64eb68",
+      "unchanged": true
+    },
+    {
+      "path": "tests/tb_board.sv",
+      "source_commit_sha256": "5d127a2fe23ac6ab200397b76cdf658a6a3e1178bd0417e42360b58cdfccbe20",
+      "published_sha256": "5d127a2fe23ac6ab200397b76cdf658a6a3e1178bd0417e42360b58cdfccbe20",
+      "unchanged": true
+    },
+    {
+      "path": "tests/tb_controller.sv",
+      "source_commit_sha256": "cde9c63fdf57dc9da55ff3a54f809759d7bafa22a33c0799bd8452dfcf49948f",
+      "published_sha256": "cde9c63fdf57dc9da55ff3a54f809759d7bafa22a33c0799bd8452dfcf49948f",
+      "unchanged": true
+    },
+    {
+      "path": "tests/tb_jtag_adapters.sv",
+      "source_commit_sha256": "db5380bbece31003fa603d35b0ed9c0a985cf11f7eca130c6cd20a30700887cc",
+      "published_sha256": "db5380bbece31003fa603d35b0ed9c0a985cf11f7eca130c6cd20a30700887cc",
+      "unchanged": true
+    },
+    {
+      "path": "tests/tb_performance.sv",
+      "source_commit_sha256": "c913b1f26fc9a4f3482d24be8ec465f7a8e9879a4a2aa7594aa31ed2f55465b0",
+      "published_sha256": "c913b1f26fc9a4f3482d24be8ec465f7a8e9879a4a2aa7594aa31ed2f55465b0",
+      "unchanged": true
+    },
+    {
+      "path": "tests/tb_tester.sv",
+      "source_commit_sha256": "94d386c67510ac2c0718d38f4e17b65a8ae85a02f3fd00200e864cfbe2b3ed98",
+      "published_sha256": "94d386c67510ac2c0718d38f4e17b65a8ae85a02f3fd00200e864cfbe2b3ed98",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_cli.py",
+      "source_commit_sha256": "9c36db347c6210a7158ebef90a379c8b887ca16618ceaf50e28bee277de8bbd8",
+      "published_sha256": "9c36db347c6210a7158ebef90a379c8b887ca16618ceaf50e28bee277de8bbd8",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_client.py",
+      "source_commit_sha256": "99b69290981b02b371051f500b29ce6764c09b776ddc90949e1fa03768fcf5cb",
+      "published_sha256": "99b69290981b02b371051f500b29ce6764c09b776ddc90949e1fa03768fcf5cb",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_prepare_jtag.tcl",
+      "source_commit_sha256": "9c1f6bbff834a9faee30f91aadb1b5a37f41957b051c7c32c0ed0852ff0d78c5",
+      "published_sha256": "9c1f6bbff834a9faee30f91aadb1b5a37f41957b051c7c32c0ed0852ff0d78c5",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_transport.py",
+      "source_commit_sha256": "8344389c61ec7f453026a5f74ca1ce3b618bb28c3f1c90b94851a32c351d300f",
+      "published_sha256": "8344389c61ec7f453026a5f74ca1ce3b618bb28c3f1c90b94851a32c351d300f",
+      "unchanged": true
+    }
+  ],
+  "omitted_tracked_files": [
+    ".githooks/.gitkeep",
+    ".githooks/pre-commit",
+    "constraints/.gitkeep",
+    "constraints/SDRAM_Test_Harness.sdc",
+    "docs/.gitkeep",
+    "docs/SDRAM on DE10_ IS42S16320F-7TL_ISSI_42-45R-S_86400F-16320F.pdf",
+    "docs/module_header.v",
+    "quartus_project/.gitkeep",
+    "quartus_project/SDRAM_Test_Harness.htm",
+    "quartus_project/SDRAM_Test_Harness.sdc",
+    "quartus_project/SDRAM_Test_Harness.v",
+    "quartus_project/SDRAM_Test_Harness_legacy.qsf",
+    "quartus_project/greybox_tmp/cbx_args.txt",
+    "questa_project/.gitkeep",
+    "questa_project/SDRAM_Tester.cr.mti",
+    "questa_project/SDRAM_Tester.mpf",
+    "questa_project/tb_axi_stream_sequencer.cr.mti",
+    "questa_project/tb_axi_stream_sequencer.mpf",
+    "questa_project/tb_full_sdram_chain.cr.mti",
+    "questa_project/tb_full_sdram_chain.mpf",
+    "questa_project/tb_sdram_read_fifo.cr.mti",
+    "questa_project/tb_sdram_read_fifo.mpf",
+    "questa_project/tb_sdram_read_fifo.vcd",
+    "questa_project/tb_sdram_testHarness.cr.mti",
+    "questa_project/tb_sdram_testHarness.mpf",
+    "questa_project/tb_sequencer.cr.mti",
+    "questa_project/tb_sequencer.mpf",
+    "questa_project/vsim.wlf",
+    "scripts/.gitkeep",
+    "scripts/baseline.do",
+    "src/ip/.gitkeep",
+    "src/ip/SDRAM_CMD_FIFO.bsf",
+    "src/ip/SDRAM_CMD_FIFO.qip",
+    "src/ip/SDRAM_CMD_FIFO.signals",
+    "src/ip/SDRAM_CMD_FIFO.v",
+    "src/ip/SDRAM_CMD_FIFO_bb.v",
+    "src/ip/SDRAM_CMD_FIFO_inst.v",
+    "src/ip/SDRAM_FIFO.bsf",
+    "src/ip/SDRAM_FIFO.qip",
+    "src/ip/SDRAM_FIFO.v",
+    "src/ip/SDRAM_FIFO_bb.v",
+    "src/ip/SDRAM_FIFO_inst.v",
+    "src/ip/SDRAM_PLL_Core.bsf",
+    "src/ip/SDRAM_PLL_Core.ppf",
+    "src/ip/SDRAM_PLL_Core.qip",
+    "src/ip/SDRAM_PLL_Core.v",
+    "src/ip/SDRAM_PLL_Core_bb.v",
+    "src/ip/SDRAM_PLL_Core_inst.v",
+    "src/ip/SDRAM_PLL_Display.bsf",
+    "src/ip/SDRAM_PLL_Display.ppf",
+    "src/ip/SDRAM_PLL_Display.qip",
+    "src/ip/SDRAM_PLL_Display.v",
+    "src/ip/SDRAM_PLL_Display_bb.v",
+    "src/ip/SDRAM_PLL_Display_inst.v",
+    "src/ip/SDRAM_READ_FIFO.bsf",
+    "src/ip/SDRAM_READ_FIFO.qip",
+    "src/ip/SDRAM_READ_FIFO.signals",
+    "src/ip/SDRAM_READ_FIFO.v",
+    "src/ip/SDRAM_READ_FIFO_bb.v",
+    "src/ip/SDRAM_READ_FIFO_inst.v",
+    "src/ip/SDRAM_WRITE_FIFO.bsf",
+    "src/ip/SDRAM_WRITE_FIFO.qip",
+    "src/ip/SDRAM_WRITE_FIFO.signals",
+    "src/ip/SDRAM_WRITE_FIFO.v",
+    "src/ip/SDRAM_WRITE_FIFO_bb.v",
+    "src/ip/SDRAM_WRITE_FIFO_inst.v",
+    "src/ip/greybox_tmp/cbx_args.txt",
+    "src/rtl/.gitkeep",
+    "src/rtl/IS42S16320F.signals",
+    "src/rtl/SDRAM_Controller_AXI_Stream.signals",
+    "src/rtl/SDRAM_Controller_AXI_Stream.v",
+    "src/rtl/SDRAM_Controller_Core.signals",
+    "src/rtl/SDRAM_Controller_Core.v",
+    "src/rtl/SDRAM_Controller_Wrapper.v",
+    "src/rtl/SDRAM_Test_Harness.v",
+    "src/rtl/SDRAM_Wrapper_Slim.v",
+    "src/rtl/axi_stream_sequencer.v",
+    "src/rtl/axis_fifo.v",
+    "src/rtl/button_debounce.v",
+    "src/rtl/clock_divider.v",
+    "src/rtl/display_manager.v",
+    "src/rtl/mem_addr_decoder.v",
+    "src/rtl/sdram_tester_de10_lite.v",
+    "src/tb/.gitkeep",
+    "src/tb/SDRAM_TB_AXI.v",
+    "src/tb/axi_stream_sequencer_tb.v",
+    "src/tb/tb_axi_stream_sequencer.v",
+    "src/tb/tb_baseline_scoreboard.sv",
+    "src/tb/tb_full_sdram_chain.v",
+    "src/tb/tb_sdram_read_fifo.v",
+    "src/tb/tb_sdram_testHarness.v",
+    "src/tb/tb_sequencer.v"
+  ],
+  "scope": "New publication documentation and this manifest are additional files, not part of the source commit."
+}

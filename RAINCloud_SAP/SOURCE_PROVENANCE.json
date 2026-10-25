@@ -1,0 +1,508 @@
+{
+  "source_repository": "RAINCloud_SAP",
+  "source_commit": "9cdf1684809d64e1f6a46de408bbaf502685e898",
+  "snapshot_date_utc": "2026-10-25",
+  "selection": "Committed files only; source working tree and index untouched.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "source_commit_sha256": "2959be76e93d6fb57ad7f725beb7a1e9b29d135808cf5921efe074631f1797a2",
+      "published_sha256": "2959be76e93d6fb57ad7f725beb7a1e9b29d135808cf5921efe074631f1797a2",
+      "unchanged": true
+    },
+    {
+      "path": ".gitignore",
+      "source_commit_sha256": "6467aeedb6e13ef2e19f9247f8e558ffce8ea61bbc18660a2b875f46d37d4ff6",
+      "published_sha256": "6467aeedb6e13ef2e19f9247f8e558ffce8ea61bbc18660a2b875f46d37d4ff6",
+      "unchanged": true
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "source_commit_sha256": "0d49c0bcb38605839518e1bec8038de300afcbc3616a0db536ff899124b78e45",
+      "published_sha256": "0d49c0bcb38605839518e1bec8038de300afcbc3616a0db536ff899124b78e45",
+      "unchanged": true
+    },
+    {
+      "path": "CHANGELOG.md",
+      "source_commit_sha256": "569360275a7f035c0259bb03302350056513ba6c60fa16c1c166bf5863676951",
+      "published_sha256": "569360275a7f035c0259bb03302350056513ba6c60fa16c1c166bf5863676951",
+      "unchanged": true
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "source_commit_sha256": "36f25ddb196330839a584d4af6dabd1f28abdbef21e660a5d2f82591b57821ab",
+      "published_sha256": "36f25ddb196330839a584d4af6dabd1f28abdbef21e660a5d2f82591b57821ab",
+      "unchanged": true
+    },
+    {
+      "path": "DECISIONS.md",
+      "source_commit_sha256": "c20e722e8d81e35102d6356369ac7df3b9b1582e517db4aed40cc4afbf571e2d",
+      "published_sha256": "c20e722e8d81e35102d6356369ac7df3b9b1582e517db4aed40cc4afbf571e2d",
+      "unchanged": true
+    },
+    {
+      "path": "INTERFACES.md",
+      "source_commit_sha256": "dd56c60405a4ee88b8bb0f760606c100da3d212a6e9cc8a74ee2d9441d9fbf93",
+      "published_sha256": "dd56c60405a4ee88b8bb0f760606c100da3d212a6e9cc8a74ee2d9441d9fbf93",
+      "unchanged": true
+    },
+    {
+      "path": "NET_NAMES.md",
+      "source_commit_sha256": "aa231ac32506a9eebf8fe55f73ca32688d1e7029269075cf3d8979c0aadf385a",
+      "published_sha256": "aa231ac32506a9eebf8fe55f73ca32688d1e7029269075cf3d8979c0aadf385a",
+      "unchanged": true
+    },
+    {
+      "path": "NOTICE.md",
+      "source_commit_sha256": "792e1fe063e3bfc423bcbeeb183dcb68118eb5350c796d4e0d03374d53a64ec8",
+      "published_sha256": "792e1fe063e3bfc423bcbeeb183dcb68118eb5350c796d4e0d03374d53a64ec8",
+      "unchanged": true
+    },
+    {
+      "path": "PROJECT_MANIFEST.md",
+      "source_commit_sha256": "4979ca021f705db037d06162bbc8fa920c769c3b645402608f12dc5b0bdb39fa",
+      "published_sha256": "4979ca021f705db037d06162bbc8fa920c769c3b645402608f12dc5b0bdb39fa",
+      "unchanged": true
+    },
+    {
+      "path": "RAINCloud_SAP.qpf",
+      "source_commit_sha256": "188b849ea5388969e2340cc0e52958bcc70e5a404006c1c7ec9bad48b6a7fd99",
+      "published_sha256": "188b849ea5388969e2340cc0e52958bcc70e5a404006c1c7ec9bad48b6a7fd99",
+      "unchanged": true
+    },
+    {
+      "path": "RAINCloud_SAP.qsf",
+      "source_commit_sha256": "d5cd65f2025df92f9150d36c91b10a67407db285da0677b01051ae13259c809c",
+      "published_sha256": "d5cd65f2025df92f9150d36c91b10a67407db285da0677b01051ae13259c809c",
+      "unchanged": true
+    },
+    {
+      "path": "README.md",
+      "source_commit_sha256": "1b408039ca6a65d898542e0543d5ff0cbc0eb72048d1a6816ec361d58edef505",
+      "published_sha256": "83cdb1fbbf23361bb6f8575cc54f67c2f695f06daee19302a20278958e9e8d44",
+      "unchanged": false
+    },
+    {
+      "path": "VALIDATION.md",
+      "source_commit_sha256": "1ce628251b646b92ccc8b9c4369ad759339ed9a0b51f2cc736fdc1c909a6a4f0",
+      "published_sha256": "1ce628251b646b92ccc8b9c4369ad759339ed9a0b51f2cc736fdc1c909a6a4f0",
+      "unchanged": true
+    },
+    {
+      "path": "constraints/RAINCloud_SAP.sdc",
+      "source_commit_sha256": "27e0d7eac60f903baa80de9b913acf548237631ec2497efc63171edff57580ce",
+      "published_sha256": "27e0d7eac60f903baa80de9b913acf548237631ec2497efc63171edff57580ce",
+      "unchanged": true
+    },
+    {
+      "path": "constraints/de10_lite_pins.qsf",
+      "source_commit_sha256": "154adf5c48f78d23e96576b147ee78b6849129d069b419a665b92ef9da65eb17",
+      "published_sha256": "154adf5c48f78d23e96576b147ee78b6849129d069b419a665b92ef9da65eb17",
+      "unchanged": true
+    },
+    {
+      "path": "docs/AI_EDGE_ACCELERATOR.md",
+      "source_commit_sha256": "9a1457d600150cf7c6ff85d93f90934a2062874c04546fdc44f75b5a9cb21cb6",
+      "published_sha256": "9a1457d600150cf7c6ff85d93f90934a2062874c04546fdc44f75b5a9cb21cb6",
+      "unchanged": true
+    },
+    {
+      "path": "docs/ai_edge_sources.json",
+      "source_commit_sha256": "77a1e22ceb09ad123b74186a1fd77ff7683855642a89673ce2f7845a5baaf989",
+      "published_sha256": "77a1e22ceb09ad123b74186a1fd77ff7683855642a89673ce2f7845a5baaf989",
+      "unchanged": true
+    },
+    {
+      "path": "docs/images/README.md",
+      "source_commit_sha256": "f673c0601ae7fc16c794a82b8fcdcb300d88aa11931ea209cb578dc8477f942c",
+      "published_sha256": "f673c0601ae7fc16c794a82b8fcdcb300d88aa11931ea209cb578dc8477f942c",
+      "unchanged": true
+    },
+    {
+      "path": "docs/images/sap-datapath.png",
+      "source_commit_sha256": "a36813580c2937351eb2fa7ea3b78a26cf30e459d4bcbf79a10041edc676d5de",
+      "published_sha256": "a36813580c2937351eb2fa7ea3b78a26cf30e459d4bcbf79a10041edc676d5de",
+      "unchanged": true
+    },
+    {
+      "path": "docs/images/sap-datapath.svg",
+      "source_commit_sha256": "6b5abaae0fba2193ca913f2cd662f79d1d8dbd5b50c36a6e04595d0d64b3a86c",
+      "published_sha256": "6b5abaae0fba2193ca913f2cd662f79d1d8dbd5b50c36a6e04595d0d64b3a86c",
+      "unchanged": true
+    },
+    {
+      "path": "docs/images/sap-overview.png",
+      "source_commit_sha256": "e963fca9bb9662ac7d0d86d43535cd687eb02c15deed16db9b9d65ce73397245",
+      "published_sha256": "e963fca9bb9662ac7d0d86d43535cd687eb02c15deed16db9b9d65ce73397245",
+      "unchanged": true
+    },
+    {
+      "path": "docs/images/sap-overview.svg",
+      "source_commit_sha256": "f952bcc26c12fc81078abd72a9b395c842deb38c1312f7c991144832cfa99c7e",
+      "published_sha256": "f952bcc26c12fc81078abd72a9b395c842deb38c1312f7c991144832cfa99c7e",
+      "unchanged": true
+    },
+    {
+      "path": "programs/ram_init.hex",
+      "source_commit_sha256": "23a812c7b13d2152311da76dfcd8a639b80686b4d95fcb609ba3645e844685e6",
+      "published_sha256": "23a812c7b13d2152311da76dfcd8a639b80686b4d95fcb609ba3645e844685e6",
+      "unchanged": true
+    },
+    {
+      "path": "reference/NET_RENAMES.json",
+      "source_commit_sha256": "6359f589dd2224cde3be051819a1fb3b8834a6a63be0a1ddd8583c3d97161c5e",
+      "published_sha256": "6359f589dd2224cde3be051819a1fb3b8834a6a63be0a1ddd8583c3d97161c5e",
+      "unchanged": true
+    },
+    {
+      "path": "reference/README.md",
+      "source_commit_sha256": "887bddefb9827b0ae5cc55c28183bd3d8007c861f7fec792aa4b1fda76efedc3",
+      "published_sha256": "887bddefb9827b0ae5cc55c28183bd3d8007c861f7fec792aa4b1fda76efedc3",
+      "unchanged": true
+    },
+    {
+      "path": "reference/SOURCE_MANIFEST.json",
+      "source_commit_sha256": "a8810335c3385d9b6398edd0dd678f6565db41ad8d146ac822070e67b88eb70e",
+      "published_sha256": "a8810335c3385d9b6398edd0dd678f6565db41ad8d146ac822070e67b88eb70e",
+      "unchanged": true
+    },
+    {
+      "path": "reference/original/74ls161/ic_74ls161_rtl.v",
+      "source_commit_sha256": "a203dcffdfc5b7227745610c44ca2c4fe9688ae71dbbe02356364a20e41b76cd",
+      "published_sha256": "a203dcffdfc5b7227745610c44ca2c4fe9688ae71dbbe02356364a20e41b76cd",
+      "unchanged": true
+    },
+    {
+      "path": "reference/original/74ls173/ic_74ls173_rtl.v",
+      "source_commit_sha256": "8c95e9388c1d8983c1c455bba8e301373a7f91d2583fca9f63c828f6d067b149",
+      "published_sha256": "8c95e9388c1d8983c1c455bba8e301373a7f91d2583fca9f63c828f6d067b149",
+      "unchanged": true
+    },
+    {
+      "path": "reference/original/74ls245_ab/ic_74ls245ab_rtl.v",
+      "source_commit_sha256": "d020a2914f77b0efa9bfd81961ed5b81a093ce17aa850137bcdfe4d34b67bb01",
+      "published_sha256": "d020a2914f77b0efa9bfd81961ed5b81a093ce17aa850137bcdfe4d34b67bb01",
+      "unchanged": true
+    },
+    {
+      "path": "reference/original/74ls245_ba/ic_74ls245ba_rtl.v",
+      "source_commit_sha256": "76268b2aee56f7d20967316ed6e08df8421d7286f90fac32849cfdb5a24122d2",
+      "published_sha256": "76268b2aee56f7d20967316ed6e08df8421d7286f90fac32849cfdb5a24122d2",
+      "unchanged": true
+    },
+    {
+      "path": "reference/original/74ls283/ic_74ls283_rtl.v",
+      "source_commit_sha256": "13241ac0d64fa614f8b27426ba68f5ebe60092ed4c7c08a0f28a25f68cb53119",
+      "published_sha256": "13241ac0d64fa614f8b27426ba68f5ebe60092ed4c7c08a0f28a25f68cb53119",
+      "unchanged": true
+    },
+    {
+      "path": "reference/original/8_BIT_Computer/8_BIT_Computer.out.sdc",
+      "source_commit_sha256": "a3653307c0ff117685ca2ca63ea2240c2d3fb85c35ca31ad14272a164118ccc3",
+      "published_sha256": "a3653307c0ff117685ca2ca63ea2240c2d3fb85c35ca31ad14272a164118ccc3",
+      "unchanged": true
+    },
+    {
+      "path": "reference/original/8_BIT_Computer/8_BIT_Computer.qsf",
+      "source_commit_sha256": "21004e8c8904c6e279a14e57985d1c8f22528e27c372df243d15aa210b3015dc",
+      "published_sha256": "21004e8c8904c6e279a14e57985d1c8f22528e27c372df243d15aa210b3015dc",
+      "unchanged": true
+    },
+    {
+      "path": "reference/original/8_BIT_Computer/BE_8_BIT_Computer.v",
+      "source_commit_sha256": "d556fe80aa26be1eb5992c2d98b457df8856fd2e473604133390416e86cdcbac",
+      "published_sha256": "d556fe80aa26be1eb5992c2d98b457df8856fd2e473604133390416e86cdcbac",
+      "unchanged": true
+    },
+    {
+      "path": "reference/original/8_BIT_Computer/JC_8_BIT_Computer.v",
+      "source_commit_sha256": "28d6ac8ee24791d559fe4f3caa1d6b1c4d8161ace59f80ca874f59b257b0c617",
+      "published_sha256": "28d6ac8ee24791d559fe4f3caa1d6b1c4d8161ace59f80ca874f59b257b0c617",
+      "unchanged": true
+    },
+    {
+      "path": "reference/original/alu/alu.v",
+      "source_commit_sha256": "6831f062bc22da2ba4f7aa1c330ef701d87c4290b2ab8921b8a22b62fc22ac14",
+      "published_sha256": "6831f062bc22da2ba4f7aa1c330ef701d87c4290b2ab8921b8a22b62fc22ac14",
+      "unchanged": true
+    },
+    {
+      "path": "reference/original/clock/be_clock.v",
+      "source_commit_sha256": "555322190f469471156a0d728af979cee474a281fd26b05de10173f27b8fa6cf",
+      "published_sha256": "555322190f469471156a0d728af979cee474a281fd26b05de10173f27b8fa6cf",
+      "unchanged": true
+    },
+    {
+      "path": "reference/original/control_logic/control_logic.v",
+      "source_commit_sha256": "976cda85c41295de432d91acbe87b53dbc7741f8800f0e678035c093f3e44444",
+      "published_sha256": "976cda85c41295de432d91acbe87b53dbc7741f8800f0e678035c093f3e44444",
+      "unchanged": true
+    },
+    {
+      "path": "reference/original/data_bus/data_bus.v",
+      "source_commit_sha256": "60c928785eb9b311b2d5ab8cdc4523fb99df4c1d95c335e098ce7645fc1743b5",
+      "published_sha256": "60c928785eb9b311b2d5ab8cdc4523fb99df4c1d95c335e098ce7645fc1743b5",
+      "unchanged": true
+    },
+    {
+      "path": "reference/original/display/jc_display.v",
+      "source_commit_sha256": "928514f717169264646a9118dd7c1198ae5a9445c55318541547a11b5884bdb0",
+      "published_sha256": "928514f717169264646a9118dd7c1198ae5a9445c55318541547a11b5884bdb0",
+      "unchanged": true
+    },
+    {
+      "path": "reference/original/microcode_statemachine/microcode_statemachine.v",
+      "source_commit_sha256": "20e712d7cb49b8950d87098b7dfb89f4d8850d33780dc2f45e4e85f800c225c6",
+      "published_sha256": "20e712d7cb49b8950d87098b7dfb89f4d8850d33780dc2f45e4e85f800c225c6",
+      "unchanged": true
+    },
+    {
+      "path": "reference/original/program_counter/program_counter.v",
+      "source_commit_sha256": "943174476f2f0ec7e2cf2ce6c2cfeb396bca80f5f19f912c3d2fb40651ffbde9",
+      "published_sha256": "943174476f2f0ec7e2cf2ce6c2cfeb396bca80f5f19f912c3d2fb40651ffbde9",
+      "unchanged": true
+    },
+    {
+      "path": "reference/original/ram/RAM_INIT.txt",
+      "source_commit_sha256": "793062aa4c52eeb6b2eff19a4c7a6368a25905c3dc8ca2709a45e0f53f71bf9d",
+      "published_sha256": "793062aa4c52eeb6b2eff19a4c7a6368a25905c3dc8ca2709a45e0f53f71bf9d",
+      "unchanged": true
+    },
+    {
+      "path": "reference/original/ram/ram.v",
+      "source_commit_sha256": "22bc18ba980b322db711e5ea028e981821180943ad2cd57962c246435465fa75",
+      "published_sha256": "22bc18ba980b322db711e5ea028e981821180943ad2cd57962c246435465fa75",
+      "unchanged": true
+    },
+    {
+      "path": "reference/original/registers/a register/a_register.v",
+      "source_commit_sha256": "fcd379373139346df7270882b43a5825b4617fff94800ed786a28b2335ca459a",
+      "published_sha256": "fcd379373139346df7270882b43a5825b4617fff94800ed786a28b2335ca459a",
+      "unchanged": true
+    },
+    {
+      "path": "reference/original/registers/b register/b_register.v",
+      "source_commit_sha256": "0dc8242d04c1f9cc748822ddfdbe78c928f5b9c64525f2c3ab215b162174dc07",
+      "published_sha256": "0dc8242d04c1f9cc748822ddfdbe78c928f5b9c64525f2c3ab215b162174dc07",
+      "unchanged": true
+    },
+    {
+      "path": "reference/original/registers/instruction register/instruction_register.v",
+      "source_commit_sha256": "fc9e4eb3fb23ce76d33c07cdc1559b5f2854e9e0e20ed822f3c726c0af0c5617",
+      "published_sha256": "fc9e4eb3fb23ce76d33c07cdc1559b5f2854e9e0e20ed822f3c726c0af0c5617",
+      "unchanged": true
+    },
+    {
+      "path": "reference/original/registers/memory address register/memory_address_register.v",
+      "source_commit_sha256": "8597d95c9a3e34c21d795f93ed08d6b04478d5ad4632b1fdc72df6e0e6f77510",
+      "published_sha256": "8597d95c9a3e34c21d795f93ed08d6b04478d5ad4632b1fdc72df6e0e6f77510",
+      "unchanged": true
+    },
+    {
+      "path": "reference/original/registers/output register/output_register.v",
+      "source_commit_sha256": "a3d5f85f08ed6671198893b296ff8f933ca22b4cf6b64c6e5d15706110950f81",
+      "published_sha256": "a3d5f85f08ed6671198893b296ff8f933ca22b4cf6b64c6e5d15706110950f81",
+      "unchanged": true
+    },
+    {
+      "path": "rtl/RAINCloud_SAP.v",
+      "source_commit_sha256": "765ee71de76e346a500387d953578fe083c1ba304808a584ffd2cad3b7a24080",
+      "published_sha256": "765ee71de76e346a500387d953578fe083c1ba304808a584ffd2cad3b7a24080",
+      "unchanged": true
+    },
+    {
+      "path": "rtl/a_register.v",
+      "source_commit_sha256": "e5a7b2edaeb5067a8380110a5439a2fb77a3dae3dbf31742c660963ae29b2241",
+      "published_sha256": "e5a7b2edaeb5067a8380110a5439a2fb77a3dae3dbf31742c660963ae29b2241",
+      "unchanged": true
+    },
+    {
+      "path": "rtl/alu.v",
+      "source_commit_sha256": "3cff741b5d9c080078ea4c2872527e13c123c8507be1411fcf7c9eb379dd634f",
+      "published_sha256": "3cff741b5d9c080078ea4c2872527e13c123c8507be1411fcf7c9eb379dd634f",
+      "unchanged": true
+    },
+    {
+      "path": "rtl/b_register.v",
+      "source_commit_sha256": "b2e09575cbf5d4fbe3e55c2424684238904eed35cef84b3ea3d067b412120925",
+      "published_sha256": "b2e09575cbf5d4fbe3e55c2424684238904eed35cef84b3ea3d067b412120925",
+      "unchanged": true
+    },
+    {
+      "path": "rtl/be_8_bit_computer.v",
+      "source_commit_sha256": "3baed61cce9dc2da0d7e7f770f6b9a1f41d720e9458ddd5549540f19e9aeeb69",
+      "published_sha256": "3baed61cce9dc2da0d7e7f770f6b9a1f41d720e9458ddd5549540f19e9aeeb69",
+      "unchanged": true
+    },
+    {
+      "path": "rtl/be_clock.v",
+      "source_commit_sha256": "0cb7418512d959128c91572f11d36bb710ee7b6384e5e9564e520146f529dfa1",
+      "published_sha256": "0cb7418512d959128c91572f11d36bb710ee7b6384e5e9564e520146f529dfa1",
+      "unchanged": true
+    },
+    {
+      "path": "rtl/bus_display_register.v",
+      "source_commit_sha256": "1136976f4d369ab2233e85f0fb2db76d4bc141d188e7f4235ee8c4c5f7948c6f",
+      "published_sha256": "1136976f4d369ab2233e85f0fb2db76d4bc141d188e7f4235ee8c4c5f7948c6f",
+      "unchanged": true
+    },
+    {
+      "path": "rtl/control_logic.v",
+      "source_commit_sha256": "2d41b3a3197f9ad04c23a5d9dea1f6692850149dc3c4a6f418c06d05e2c7e9c1",
+      "published_sha256": "2d41b3a3197f9ad04c23a5d9dea1f6692850149dc3c4a6f418c06d05e2c7e9c1",
+      "unchanged": true
+    },
+    {
+      "path": "rtl/ic_74ls161_rtl.v",
+      "source_commit_sha256": "8db97b0d7720b77830c22f8b55d65c25da28180136133a30850d6cf634a8c9f0",
+      "published_sha256": "8db97b0d7720b77830c22f8b55d65c25da28180136133a30850d6cf634a8c9f0",
+      "unchanged": true
+    },
+    {
+      "path": "rtl/ic_74ls173_rtl.v",
+      "source_commit_sha256": "738073c56fc81014be4992185c415244082c0ea7b874cf2f9a78e2fd75c0b55f",
+      "published_sha256": "738073c56fc81014be4992185c415244082c0ea7b874cf2f9a78e2fd75c0b55f",
+      "unchanged": true
+    },
+    {
+      "path": "rtl/ic_74ls245ab_rtl.v",
+      "source_commit_sha256": "c7eb5e54880a9f5e27bcfaa6e7c6be40de3e6a4d547bfc02237063c45c1024df",
+      "published_sha256": "c7eb5e54880a9f5e27bcfaa6e7c6be40de3e6a4d547bfc02237063c45c1024df",
+      "unchanged": true
+    },
+    {
+      "path": "rtl/ic_74ls245ba_rtl.v",
+      "source_commit_sha256": "dce1019904e9f2cf937518867c0a526a3d4501e830e8d49efbf85bff2035b152",
+      "published_sha256": "dce1019904e9f2cf937518867c0a526a3d4501e830e8d49efbf85bff2035b152",
+      "unchanged": true
+    },
+    {
+      "path": "rtl/ic_74ls283_rtl.v",
+      "source_commit_sha256": "220446d961b36ee13c88306376561fa582a1d04bd17091048b6d093fdc5fd9d9",
+      "published_sha256": "220446d961b36ee13c88306376561fa582a1d04bd17091048b6d093fdc5fd9d9",
+      "unchanged": true
+    },
+    {
+      "path": "rtl/input_conditioner.v",
+      "source_commit_sha256": "071e633f866123c6dd19c603448c8b2261451b336830be255ede29754ca638c5",
+      "published_sha256": "071e633f866123c6dd19c603448c8b2261451b336830be255ede29754ca638c5",
+      "unchanged": true
+    },
+    {
+      "path": "rtl/instruction_register.v",
+      "source_commit_sha256": "2388aae2b3857c58384631037fc723a1c6c634e3f3c115efbc7828d7c729d38b",
+      "published_sha256": "2388aae2b3857c58384631037fc723a1c6c634e3f3c115efbc7828d7c729d38b",
+      "unchanged": true
+    },
+    {
+      "path": "rtl/jc_display.v",
+      "source_commit_sha256": "5d1b281cb44871ddb53ca7002e1c9837cbe4686d86ebfa8c04c305d1a2ec61f5",
+      "published_sha256": "5d1b281cb44871ddb53ca7002e1c9837cbe4686d86ebfa8c04c305d1a2ec61f5",
+      "unchanged": true
+    },
+    {
+      "path": "rtl/memory_address_register.v",
+      "source_commit_sha256": "007053e64c56ec88c572287bd1353e84140c328ebf1a1148fa8e26a6fcb806c5",
+      "published_sha256": "007053e64c56ec88c572287bd1353e84140c328ebf1a1148fa8e26a6fcb806c5",
+      "unchanged": true
+    },
+    {
+      "path": "rtl/microcode_statemachine.v",
+      "source_commit_sha256": "ee84249235ce4de8bd729472b49cfeed8c80c5de1b57058c57bcb3204db97fd4",
+      "published_sha256": "ee84249235ce4de8bd729472b49cfeed8c80c5de1b57058c57bcb3204db97fd4",
+      "unchanged": true
+    },
+    {
+      "path": "rtl/output_register.v",
+      "source_commit_sha256": "cbeca770e3a413f6357a9eb6ee8bcc93debe8804c2a4e1240df30fc2df226d6e",
+      "published_sha256": "cbeca770e3a413f6357a9eb6ee8bcc93debe8804c2a4e1240df30fc2df226d6e",
+      "unchanged": true
+    },
+    {
+      "path": "rtl/program_counter.v",
+      "source_commit_sha256": "7ba35156b8ce296acfdef9655fb12ae1820dcc7a3e482308b5de2e01d45d5d6d",
+      "published_sha256": "7ba35156b8ce296acfdef9655fb12ae1820dcc7a3e482308b5de2e01d45d5d6d",
+      "unchanged": true
+    },
+    {
+      "path": "rtl/ram.v",
+      "source_commit_sha256": "45a84b9bd114a9551e470e97ecdbd883a0a831dbb0f73596e17fd925f9bf06ef",
+      "published_sha256": "45a84b9bd114a9551e470e97ecdbd883a0a831dbb0f73596e17fd925f9bf06ef",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/build.ps1",
+      "source_commit_sha256": "f77f20b63e361be4ccce3fbe1cce608275be6bc8864bf3a589b7e58371ce5538",
+      "published_sha256": "f77f20b63e361be4ccce3fbe1cce608275be6bc8864bf3a589b7e58371ce5538",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/check_project.py",
+      "source_commit_sha256": "21283096e52beb879a9d0fb9057e50de6cbd3746c4a8c3387458ff8fa8b8fb85",
+      "published_sha256": "21283096e52beb879a9d0fb9057e50de6cbd3746c4a8c3387458ff8fa8b8fb85",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/compile_questa.ps1",
+      "source_commit_sha256": "3a7123c0a4ad0244ce73dbfdc4997cb19cf70ccfcefaa3574dbf49a3b3542003",
+      "published_sha256": "3a7123c0a4ad0244ce73dbfdc4997cb19cf70ccfcefaa3574dbf49a3b3542003",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/draw_architecture.py",
+      "source_commit_sha256": "2cb98e9d115754569db2bf69a13d43d1d9111bfae32575df6498c75e7357ca88",
+      "published_sha256": "2cb98e9d115754569db2bf69a13d43d1d9111bfae32575df6498c75e7357ca88",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/matrix_demo_reference.py",
+      "source_commit_sha256": "a20333dd428911ce390cab92531e99d6014072b9231753c685fd8dd0da10788f",
+      "published_sha256": "a20333dd428911ce390cab92531e99d6014072b9231753c685fd8dd0da10788f",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/run_tests.py",
+      "source_commit_sha256": "8ef4cd010137a09ff51819485ee4f7c1664cdeeaafd781b12d19bd59d0f7c9ac",
+      "published_sha256": "8ef4cd010137a09ff51819485ee4f7c1664cdeeaafd781b12d19bd59d0f7c9ac",
+      "unchanged": true
+    },
+    {
+      "path": "sim/sources.f",
+      "source_commit_sha256": "c8ce53e2720e28b33c3fadf20fa54d27c1a49060e651a2bd3f517a4b172f1c29",
+      "published_sha256": "c8ce53e2720e28b33c3fadf20fa54d27c1a49060e651a2bd3f517a4b172f1c29",
+      "unchanged": true
+    },
+    {
+      "path": "sim/tb_alu.sv",
+      "source_commit_sha256": "f7aa1c0c41470d7aa25b47d3da90c1de3e5a7a6eb784ff372b545c7d6e5d68a4",
+      "published_sha256": "f7aa1c0c41470d7aa25b47d3da90c1de3e5a7a6eb784ff372b545c7d6e5d68a4",
+      "unchanged": true
+    },
+    {
+      "path": "sim/tb_clock.sv",
+      "source_commit_sha256": "8e54fe0427cb896a71c22e116cadaac0235b30b8b3949dc4e1c1f0199e5fe6e3",
+      "published_sha256": "8e54fe0427cb896a71c22e116cadaac0235b30b8b3949dc4e1c1f0199e5fe6e3",
+      "unchanged": true
+    },
+    {
+      "path": "sim/tb_cpu.sv",
+      "source_commit_sha256": "8a368bb7aad0b2385204e41a11f41e0629f6a01fad78a6eada82f323571d96b1",
+      "published_sha256": "8a368bb7aad0b2385204e41a11f41e0629f6a01fad78a6eada82f323571d96b1",
+      "unchanged": true
+    },
+    {
+      "path": "sim/tb_inputs.sv",
+      "source_commit_sha256": "d1b2249437ca62b787fc6a1a28ef665c138e002be9a6db12dbf95ebc500cb62b",
+      "published_sha256": "d1b2249437ca62b787fc6a1a28ef665c138e002be9a6db12dbf95ebc500cb62b",
+      "unchanged": true
+    },
+    {
+      "path": "sim/tb_output.sv",
+      "source_commit_sha256": "24d93ebe976eaa20b0d192d7baf24528f9ad15500931990a1a2cf57c91383b1b",
+      "published_sha256": "24d93ebe976eaa20b0d192d7baf24528f9ad15500931990a1a2cf57c91383b1b",
+      "unchanged": true
+    }
+  ],
+  "omitted_tracked_files": [],
+  "scope": "New publication documentation and this manifest are additional files, not part of the source commit."
+}

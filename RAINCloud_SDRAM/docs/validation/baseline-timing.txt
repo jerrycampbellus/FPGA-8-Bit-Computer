@@ -1,0 +1,161 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'u_tester|SDRAM_PLL_Core_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -2.894
+TNS   : -561.547
+
+Type  : Slow 1200mV 85C Model Setup 'u_tester|SDRAM_PLL_Display_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 99995.842
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'u_tester|SDRAM_PLL_Core_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.302
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'u_tester|SDRAM_PLL_Display_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.425
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'u_tester|SDRAM_PLL_Core_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 6.687
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'u_tester|SDRAM_PLL_Display_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 99996.511
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'u_tester|SDRAM_PLL_Core_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 2.229
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'u_tester|SDRAM_PLL_Display_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 3.160
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'u_tester|SDRAM_PLL_Core_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.675
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'MAX10_CLK1_50'
+Slack : 9.820
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'MAX10_CLK2_50'
+Slack : 16.000
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ADC_CLK_10'
+Slack : 96.000
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'u_tester|SDRAM_PLL_Display_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 49999.731
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'u_tester|SDRAM_PLL_Core_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -1.873
+TNS   : -282.565
+
+Type  : Slow 1200mV 0C Model Setup 'u_tester|SDRAM_PLL_Display_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 99996.104
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'u_tester|SDRAM_PLL_Core_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.256
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'u_tester|SDRAM_PLL_Display_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.345
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'u_tester|SDRAM_PLL_Core_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 6.892
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'u_tester|SDRAM_PLL_Display_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 99996.751
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'u_tester|SDRAM_PLL_Core_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 1.963
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'u_tester|SDRAM_PLL_Display_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 2.818
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'u_tester|SDRAM_PLL_Core_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.687
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'MAX10_CLK1_50'
+Slack : 9.830
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'MAX10_CLK2_50'
+Slack : 16.000
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ADC_CLK_10'
+Slack : 96.000
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'u_tester|SDRAM_PLL_Display_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 49999.712
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'u_tester|SDRAM_PLL_Core_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.672
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'u_tester|SDRAM_PLL_Display_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 99998.277
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'u_tester|SDRAM_PLL_Core_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.146
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'u_tester|SDRAM_PLL_Display_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.213
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'u_tester|SDRAM_PLL_Core_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 8.290
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'u_tester|SDRAM_PLL_Display_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 99998.258
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'u_tester|SDRAM_PLL_Core_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 1.032
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'u_tester|SDRAM_PLL_Display_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 1.556
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'u_tester|SDRAM_PLL_Core_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.712
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'MAX10_CLK1_50'
+Slack : 9.530
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'MAX10_CLK2_50'
+Slack : 16.000
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ADC_CLK_10'
+Slack : 96.000
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'u_tester|SDRAM_PLL_Display_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 49999.806
+TNS   : 0.000
+
+------------------------------------------------------------

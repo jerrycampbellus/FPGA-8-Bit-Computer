@@ -1,0 +1,35 @@
+/build/
+/db/
+/incremental_db/
+/simulation/
+*.qws
+*.smsg
+*.rpt
+*.summary
+*.log
+*.wlf
+*.vcd
+*.bak
+*.qdf
+*.done
+*.jdi
+*.sld
+*.pin
+/work/
+/modelsim.ini
+__pycache__/
+
+# Local credentials and simulator licenses
+.env
+.env.*
+/licenses/
+*.lic
+*.pem
+*.key
+*license*.dat
+*License*.dat
+
+# Generated programming images and local programmer chains
+*.sof
+*.pof
+*.cdf

@@ -1,0 +1,117 @@
+[
+  {
+    "source": "BenEater_8Bit_Computer/8_BIT_Computer/BE_8_BIT_Computer.v",
+    "reference": "reference/original/8_BIT_Computer/BE_8_BIT_Computer.v",
+    "sha256": "d556fe80aa26be1eb5992c2d98b457df8856fd2e473604133390416e86cdcbac"
+  },
+  {
+    "source": "BenEater_8Bit_Computer/8_BIT_Computer/JC_8_BIT_Computer.v",
+    "reference": "reference/original/8_BIT_Computer/JC_8_BIT_Computer.v",
+    "sha256": "28d6ac8ee24791d559fe4f3caa1d6b1c4d8161ace59f80ca874f59b257b0c617"
+  },
+  {
+    "source": "BenEater_8Bit_Computer/alu/alu.v",
+    "reference": "reference/original/alu/alu.v",
+    "sha256": "6831f062bc22da2ba4f7aa1c330ef701d87c4290b2ab8921b8a22b62fc22ac14"
+  },
+  {
+    "source": "BenEater_8Bit_Computer/74ls173/ic_74ls173_rtl.v",
+    "reference": "reference/original/74ls173/ic_74ls173_rtl.v",
+    "sha256": "8c95e9388c1d8983c1c455bba8e301373a7f91d2583fca9f63c828f6d067b149"
+  },
+  {
+    "source": "BenEater_8Bit_Computer/74ls283/ic_74ls283_rtl.v",
+    "reference": "reference/original/74ls283/ic_74ls283_rtl.v",
+    "sha256": "13241ac0d64fa614f8b27426ba68f5ebe60092ed4c7c08a0f28a25f68cb53119"
+  },
+  {
+    "source": "BenEater_8Bit_Computer/74ls245_ab/ic_74ls245ab_rtl.v",
+    "reference": "reference/original/74ls245_ab/ic_74ls245ab_rtl.v",
+    "sha256": "d020a2914f77b0efa9bfd81961ed5b81a093ce17aa850137bcdfe4d34b67bb01"
+  },
+  {
+    "source": "BenEater_8Bit_Computer/registers/a register/a_register.v",
+    "reference": "reference/original/registers/a register/a_register.v",
+    "sha256": "fcd379373139346df7270882b43a5825b4617fff94800ed786a28b2335ca459a"
+  },
+  {
+    "source": "BenEater_8Bit_Computer/registers/b register/b_register.v",
+    "reference": "reference/original/registers/b register/b_register.v",
+    "sha256": "0dc8242d04c1f9cc748822ddfdbe78c928f5b9c64525f2c3ab215b162174dc07"
+  },
+  {
+    "source": "BenEater_8Bit_Computer/control_logic/control_logic.v",
+    "reference": "reference/original/control_logic/control_logic.v",
+    "sha256": "976cda85c41295de432d91acbe87b53dbc7741f8800f0e678035c093f3e44444"
+  },
+  {
+    "source": "BenEater_8Bit_Computer/74ls161/ic_74ls161_rtl.v",
+    "reference": "reference/original/74ls161/ic_74ls161_rtl.v",
+    "sha256": "a203dcffdfc5b7227745610c44ca2c4fe9688ae71dbbe02356364a20e41b76cd"
+  },
+  {
+    "source": "BenEater_8Bit_Computer/microcode_statemachine/microcode_statemachine.v",
+    "reference": "reference/original/microcode_statemachine/microcode_statemachine.v",
+    "sha256": "20e712d7cb49b8950d87098b7dfb89f4d8850d33780dc2f45e4e85f800c225c6"
+  },
+  {
+    "source": "BenEater_8Bit_Computer/clock/be_clock.v",
+    "reference": "reference/original/clock/be_clock.v",
+    "sha256": "555322190f469471156a0d728af979cee474a281fd26b05de10173f27b8fa6cf"
+  },
+  {
+    "source": "BenEater_8Bit_Computer/data_bus/data_bus.v",
+    "reference": "reference/original/data_bus/data_bus.v",
+    "sha256": "60c928785eb9b311b2d5ab8cdc4523fb99df4c1d95c335e098ce7645fc1743b5"
+  },
+  {
+    "source": "BenEater_8Bit_Computer/display/jc_display.v",
+    "reference": "reference/original/display/jc_display.v",
+    "sha256": "928514f717169264646a9118dd7c1198ae5a9445c55318541547a11b5884bdb0"
+  },
+  {
+    "source": "BenEater_8Bit_Computer/registers/instruction register/instruction_register.v",
+    "reference": "reference/original/registers/instruction register/instruction_register.v",
+    "sha256": "fc9e4eb3fb23ce76d33c07cdc1559b5f2854e9e0e20ed822f3c726c0af0c5617"
+  },
+  {
+    "source": "BenEater_8Bit_Computer/registers/memory address register/memory_address_register.v",
+    "reference": "reference/original/registers/memory address register/memory_address_register.v",
+    "sha256": "8597d95c9a3e34c21d795f93ed08d6b04478d5ad4632b1fdc72df6e0e6f77510"
+  },
+  {
+    "source": "BenEater_8Bit_Computer/registers/output register/output_register.v",
+    "reference": "reference/original/registers/output register/output_register.v",
+    "sha256": "a3d5f85f08ed6671198893b296ff8f933ca22b4cf6b64c6e5d15706110950f81"
+  },
+  {
+    "source": "BenEater_8Bit_Computer/program_counter/program_counter.v",
+    "reference": "reference/original/program_counter/program_counter.v",
+    "sha256": "943174476f2f0ec7e2cf2ce6c2cfeb396bca80f5f19f912c3d2fb40651ffbde9"
+  },
+  {
+    "source": "BenEater_8Bit_Computer/74ls245_ba/ic_74ls245ba_rtl.v",
+    "reference": "reference/original/74ls245_ba/ic_74ls245ba_rtl.v",
+    "sha256": "76268b2aee56f7d20967316ed6e08df8421d7286f90fac32849cfdb5a24122d2"
+  },
+  {
+    "source": "BenEater_8Bit_Computer/ram/ram.v",
+    "reference": "reference/original/ram/ram.v",
+    "sha256": "22bc18ba980b322db711e5ea028e981821180943ad2cd57962c246435465fa75"
+  },
+  {
+    "source": "BenEater_8Bit_Computer/RAM/RAM_INIT.txt",
+    "reference": "reference/original/ram/RAM_INIT.txt",
+    "sha256": "793062aa4c52eeb6b2eff19a4c7a6368a25905c3dc8ca2709a45e0f53f71bf9d"
+  },
+  {
+    "source": "BenEater_8Bit_Computer/8_BIT_Computer/8_BIT_Computer.qsf",
+    "reference": "reference/original/8_BIT_Computer/8_BIT_Computer.qsf",
+    "sha256": "21004e8c8904c6e279a14e57985d1c8f22528e27c372df243d15aa210b3015dc"
+  },
+  {
+    "source": "BenEater_8Bit_Computer/8_BIT_Computer/8_BIT_Computer.out.sdc",
+    "reference": "reference/original/8_BIT_Computer/8_BIT_Computer.out.sdc",
+    "sha256": "a3653307c0ff117685ca2ca63ea2240c2d3fb85c35ca31ad14272a164118ccc3"
+  }
+]

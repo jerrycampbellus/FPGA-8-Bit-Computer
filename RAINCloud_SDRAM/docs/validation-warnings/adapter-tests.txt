@@ -1,0 +1,3 @@
+PASS adapter preparation: jtag_bridge_master_timing_adt.sv, raw/prepared match, idempotent, generator drift rejected
+PASS adapter preparation: jtag_bridge_master_b2p_adapter.sv, raw/prepared match, idempotent, generator drift rejected
+PASS jtag_adapters: 1048576 generated/prepared port comparisons

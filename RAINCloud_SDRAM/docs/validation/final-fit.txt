@@ -1,0 +1,18 @@
+Fitter Status : Successful - Wed Oct 14 14:29:40 2026
+Quartus Prime Version : 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+Revision Name : SDRAM_Test_Harness
+Top-level Entity Name : sdram_tester_top
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 7,672 / 49,760 ( 15 % )
+    Total combinational functions : 7,001 / 49,760 ( 14 % )
+    Dedicated logic registers : 3,776 / 49,760 ( 8 % )
+Total registers : 3792
+Total pins : 110 / 360 ( 31 % )
+Total virtual pins : 0
+Total memory bits : 1,024 / 1,677,312 ( < 1 % )
+Embedded Multiplier 9-bit elements : 6 / 288 ( 2 % )
+Total PLLs : 1 / 4 ( 25 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

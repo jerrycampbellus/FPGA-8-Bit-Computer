@@ -1,0 +1,20 @@
+{
+  "api": 65537,
+  "build_id": "26101404",
+  "capabilities": 255,
+  "clock_hz": 50000000,
+  "max_transfer_words": 1024,
+  "staging_base": 4096,
+  "busy": false,
+  "done": true,
+  "stopped": false,
+  "initialized": true,
+  "owner": false,
+  "failed": false,
+  "stop_pending": false,
+  "run_id": 121,
+  "ack": 93447,
+  "command_error": 0,
+  "refresh_count": 33355111,
+  "display": 0
+}

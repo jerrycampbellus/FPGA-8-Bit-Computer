@@ -1,0 +1,24 @@
+{
+  "recorded_at": "2026-10-14T14:36:37.8617480-04:00",
+  "branch": "work/sdram-tester",
+  "base_commit": "ed6d0eb7dd0a833e767ce2f699c9b9ae83219b81",
+  "source_state": "Local uncommitted implementation; hashes record current firmware inputs after acceptance.",
+  "build_id": "26101401",
+  "api_version": "1.0",
+  "quartus": "23.1std.1 Build 993 05/14/2024 SC Lite Edition",
+  "device": "10M50DAF484C7G",
+  "sof_path": "quartus_project/output_files/SDRAM_Test_Harness.sof",
+  "sof_sha256": "95c90f55e4d62cc9539082ead5de047de1a5195fac232931035aaf13a3b3f9fe",
+  "firmware_inputs_sha256": {
+    "constraints/de10_lite_50mhz.sdc": "0fc428f650da91e55641c461bf701df5568522c8f1b58aff468adf043e48b7a6",
+    "quartus_project/SDRAM_Test_Harness.qpf": "4b6780050ec2bcbb8c7e3c34619a9912c50bdd0661910c5df635eb9b748bb821",
+    "quartus_project/SDRAM_Test_Harness.qsf": "a2e18205f08593838045c8e2fcd8b1dc33dcc0c8e58783e14979a23c15babc72",
+    "rtl/board/de10_clock.v": "d9cb4078fd2b562e8b9f2620ed8042c93cbfabc56499213f62ab4ef78bbd4e13",
+    "rtl/board/sdram_tester_top.sv": "2aff5b823d3f346979be4cb3a143b1e3ff37dfdd6436b4d15fdd7f02dca93805",
+    "rtl/library/sdram_controller.sv": "4b76da9094f7f34e0a5689555b07a2e4ec64fab62bdebd9bacb5846332f00d9e",
+    "rtl/tester/tester_regs.sv": "e5e54e76fc7b4594485081fb6a3da0ac4a39d0b036eeec340031a42d5be6c1c8",
+    "scripts/create_jtag.tcl": "924d4bc9352624902cb4ab2b9f5dfbbcaf47a20fc453dbff7601b4e247575942",
+    "src/ip/jtag_bridge.qsys": "4a9169f8caf715ed8b4926b5a93d267d5099d5c88d8a4a9a93fe0736e286f1cc"
+  },
+  "generated_ip_note": "Generated JTAG synthesis products are ignored; regenerate from the saved Qsys system using the recorded Quartus version."
+}

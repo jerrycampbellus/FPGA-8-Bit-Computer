@@ -1,0 +1,39 @@
+PASS rejected unsupported profile CAS=1
+PASS rejected unsupported profile CAS=4
+PASS rejected unsupported profile MAX_WORDS=0
+PASS rejected unsupported profile MAX_WORDS=1025
+PASS rejected unsupported profile TMRD=1
+PASS rejected unsupported profile TRP=0
+PASS rejected unsupported profile REFRESH_CYCLES=280
+PASS rejected unsupported profile REFRESH_CYCLES=65536
+test_binary_page_files_roundtrip (test_cli.PageCliTests.test_binary_page_files_roundtrip) ... ok
+test_invalid_file_leaves_memory_untouched (test_cli.PageCliTests.test_invalid_file_leaves_memory_untouched) ... ok
+test_64_bit_metrics (test_client.ClientTests.test_64_bit_metrics) ... ok
+test_busy_rejects_writes (test_client.ClientTests.test_busy_rejects_writes) ... ok
+test_duplicate_nonce_is_idempotent (test_client.ClientTests.test_duplicate_nonce_is_idempotent) ... ok
+test_invalid_configuration_before_writes (test_client.ClientTests.test_invalid_configuration_before_writes) ... ok
+test_invalid_per_word_masks_before_mutations (test_client.ClientTests.test_invalid_per_word_masks_before_mutations) ... ok
+test_legacy_firmware_capability_limit (test_client.ClientTests.test_legacy_firmware_capability_limit) ... ok
+test_mixed_application_requests_and_per_word_masks (test_client.ClientTests.test_mixed_application_requests_and_per_word_masks) ... ok
+test_page_boundaries_and_masks (test_client.ClientTests.test_page_boundaries_and_masks) ... ok
+test_page_rejection_before_mutations (test_client.ClientTests.test_page_rejection_before_mutations) ... ok
+test_page_roundtrip_and_single_request (test_client.ClientTests.test_page_roundtrip_and_single_request) ... ok
+test_patterns_and_counts (test_client.ClientTests.test_patterns_and_counts) ... ok
+test_raw_invalid_command_ack (test_client.ClientTests.test_raw_invalid_command_ack) ... ok
+test_reconnect_keeps_run_and_ownership (test_client.ClientTests.test_reconnect_keeps_run_and_ownership) ... ok
+test_snapshot_is_immutable (test_client.ClientTests.test_snapshot_is_immutable) ... ok
+test_staging_and_byte_masks (test_client.ClientTests.test_staging_and_byte_masks) ... ok
+test_stop_and_release (test_client.ClientTests.test_stop_and_release) ... ok
+test_version_mismatch (test_client.ClientTests.test_version_mismatch) ... ok
+test_error_and_eof (test_transport.TransportTests.test_error_and_eof) ... ok
+test_malformed_reply (test_transport.TransportTests.test_malformed_reply) ... ok
+test_numeric_bounds (test_transport.TransportTests.test_numeric_bounds) ... ok
+test_page_transport_chunking (test_transport.TransportTests.test_page_transport_chunking) ... ok
+test_partial_page_write_failure_is_not_replayed (test_transport.TransportTests.test_partial_page_write_failure_is_not_replayed) ... ok
+test_repl_prefix_and_request_id (test_transport.TransportTests.test_repl_prefix_and_request_id) ... ok
+test_timeout_does_not_replay_write (test_transport.TransportTests.test_timeout_does_not_replay_write) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 1.634s
+
+OK

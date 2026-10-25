@@ -1,0 +1,41 @@
+# RAINCloud Digital | RAINCloud_SAP
+# Original SAP design and codebase: J. Campbell.
+#
+set_global_assignment -name FAMILY "MAX 10"
+set_global_assignment -name DEVICE 10M50DAF484C7G
+set_global_assignment -name TOP_LEVEL_ENTITY RAINCloud_SAP
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY build/quartus
+set_global_assignment -name NUM_PARALLEL_PROCESSORS 4
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name SDC_FILE constraints/RAINCloud_SAP.sdc
+source constraints/de10_lite_pins.qsf
+set_global_assignment -name VERILOG_FILE rtl/a_register.v
+set_global_assignment -name VERILOG_FILE rtl/alu.v
+set_global_assignment -name VERILOG_FILE rtl/b_register.v
+set_global_assignment -name VERILOG_FILE rtl/be_8_bit_computer.v
+set_global_assignment -name VERILOG_FILE rtl/be_clock.v
+set_global_assignment -name VERILOG_FILE rtl/control_logic.v
+set_global_assignment -name VERILOG_FILE rtl/bus_display_register.v
+set_global_assignment -name VERILOG_FILE rtl/ic_74ls161_rtl.v
+set_global_assignment -name VERILOG_FILE rtl/ic_74ls173_rtl.v
+set_global_assignment -name VERILOG_FILE rtl/ic_74ls245ab_rtl.v
+set_global_assignment -name VERILOG_FILE rtl/ic_74ls245ba_rtl.v
+set_global_assignment -name VERILOG_FILE rtl/ic_74ls283_rtl.v
+set_global_assignment -name VERILOG_FILE rtl/instruction_register.v
+set_global_assignment -name VERILOG_FILE rtl/jc_display.v
+set_global_assignment -name VERILOG_FILE rtl/memory_address_register.v
+set_global_assignment -name VERILOG_FILE rtl/microcode_statemachine.v
+set_global_assignment -name VERILOG_FILE rtl/output_register.v
+set_global_assignment -name VERILOG_FILE rtl/program_counter.v
+set_global_assignment -name VERILOG_FILE rtl/ram.v
+set_global_assignment -name VERILOG_FILE rtl/RAINCloud_SAP.v
+set_global_assignment -name VERILOG_FILE rtl/input_conditioner.v
+set_global_assignment -name TEXT_FILE programs/ram_init.hex
+
+set_global_assignment -name LAST_QUARTUS_VERSION "25.1std.0 Lite Edition"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name CDF_FILE build/quartus/Chain2.cdf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

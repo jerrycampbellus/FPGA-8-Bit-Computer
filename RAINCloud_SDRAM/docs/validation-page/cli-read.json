@@ -1,0 +1,6 @@
+{
+  "address": 8192,
+  "bytes": 2048,
+  "output": "D:\\RAINCloud\\GitHub\\SDRAM_Tester_Working\\build\\cli-page-output.bin",
+  "transport": "jtag"
+}

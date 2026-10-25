@@ -1,0 +1,225 @@
+{
+  "attribution": "RAINCloud Digital | J. Campbell (Jerry Campbell)",
+  "inspected_on": "2026-10-15",
+  "timezone": "America/New_York",
+  "sap_base_commit": "5c68660ba5244cbdc1450fba62fa361590deac7e",
+  "dependency_repository": "https://github.com/jerrycampbellus/SDRAM_Tester.git",
+  "local_dependency_root": "D:\\RAINCloud\\GitHub\\SDRAM_Tester_Working",
+  "dependency_branch": "work/sdram-tester",
+  "dependency_base_commit": "ed6d0eb7dd0a833e767ce2f699c9b9ae83219b81",
+  "dependency_state": "Local uncommitted implementation; read-only inspection, not a vendored or integrated dependency",
+  "controller_version": "1.2.1",
+  "build_id": "26101404",
+  "register_api": "1.1",
+  "evidence_scope": "31 current firmware/host/validation inputs compared with saved 26101404 manifest; 30 match, QSF differs. No simulation, build or hardware test of the dependency was rerun.",
+  "inputs": [
+    {
+      "path": "constraints/de10_lite_50mhz.sdc",
+      "sha256": "0fc428f650da91e55641c461bf701df5568522c8f1b58aff468adf043e48b7a6",
+      "recorded_release_sha256": "0fc428f650da91e55641c461bf701df5568522c8f1b58aff468adf043e48b7a6",
+      "matches_release": true
+    },
+    {
+      "path": "quartus_project/SDRAM_Test_Harness.qpf",
+      "sha256": "4b6780050ec2bcbb8c7e3c34619a9912c50bdd0661910c5df635eb9b748bb821",
+      "recorded_release_sha256": "4b6780050ec2bcbb8c7e3c34619a9912c50bdd0661910c5df635eb9b748bb821",
+      "matches_release": true
+    },
+    {
+      "path": "quartus_project/SDRAM_Test_Harness.qsf",
+      "sha256": "6054f06899dbc615d8cea30f92c049ee0caa3f4772515c8692d1d1ec5c294ba8",
+      "recorded_release_sha256": "1020fe8cdd2d75bb8fc4404b3d9a5b562ca38746ce212dfdfb85c9404e5a61b8",
+      "matches_release": false
+    },
+    {
+      "path": "rtl/board/de10_clock.v",
+      "sha256": "d20c71c0f80065cafd38fe049532b2be75ea86505b40860daac404072c63e968",
+      "recorded_release_sha256": "d20c71c0f80065cafd38fe049532b2be75ea86505b40860daac404072c63e968",
+      "matches_release": true
+    },
+    {
+      "path": "rtl/board/sdram_tester_top.sv",
+      "sha256": "7ae0ecdd771e61777bc308d274e18d4cc17cdf9aa4615c854de3bbfd5c7b0300",
+      "recorded_release_sha256": "7ae0ecdd771e61777bc308d274e18d4cc17cdf9aa4615c854de3bbfd5c7b0300",
+      "matches_release": true
+    },
+    {
+      "path": "rtl/library/sdram_controller.sv",
+      "sha256": "02bce3a81b9c3d9964c44a5c609aeb9becdbe6f68eee6cef339f5a6d14a50b99",
+      "recorded_release_sha256": "02bce3a81b9c3d9964c44a5c609aeb9becdbe6f68eee6cef339f5a6d14a50b99",
+      "matches_release": true
+    },
+    {
+      "path": "rtl/tester/tester_regs.sv",
+      "sha256": "5128383c4bfd7c74acc1797e8489cff2ce86c684c6e31ff83314f212a2cd6173",
+      "recorded_release_sha256": "5128383c4bfd7c74acc1797e8489cff2ce86c684c6e31ff83314f212a2cd6173",
+      "matches_release": true
+    },
+    {
+      "path": "scripts/create_jtag.tcl",
+      "sha256": "924d4bc9352624902cb4ab2b9f5dfbbcaf47a20fc453dbff7601b4e247575942",
+      "recorded_release_sha256": "924d4bc9352624902cb4ab2b9f5dfbbcaf47a20fc453dbff7601b4e247575942",
+      "matches_release": true
+    },
+    {
+      "path": "src/ip/jtag_bridge.qsys",
+      "sha256": "4a9169f8caf715ed8b4926b5a93d267d5099d5c88d8a4a9a93fe0736e286f1cc",
+      "recorded_release_sha256": "4a9169f8caf715ed8b4926b5a93d267d5099d5c88d8a4a9a93fe0736e286f1cc",
+      "matches_release": true
+    },
+    {
+      "path": "scripts/prepare_jtag.tcl",
+      "sha256": "8028630f2631d59dfd7a8d79e9ed5470f65078c2ff483ff0af9b35493359b63b",
+      "recorded_release_sha256": "8028630f2631d59dfd7a8d79e9ed5470f65078c2ff483ff0af9b35493359b63b",
+      "matches_release": true
+    },
+    {
+      "path": "host/bridge.tcl",
+      "sha256": "f69f5f78dbac808acd6b8d68097137b59053de6d9cfc64912cb03bc33b87454c",
+      "recorded_release_sha256": "f69f5f78dbac808acd6b8d68097137b59053de6d9cfc64912cb03bc33b87454c",
+      "matches_release": true
+    },
+    {
+      "path": "host/sdram_client/__init__.py",
+      "sha256": "1bd328a2f7c6846969b55cbb50cd86d63875300afc743f5aa5518599820a39f5",
+      "recorded_release_sha256": "1bd328a2f7c6846969b55cbb50cd86d63875300afc743f5aa5518599820a39f5",
+      "matches_release": true
+    },
+    {
+      "path": "host/sdram_client/__main__.py",
+      "sha256": "5877fa572bd29b0a82e9ec12ddb1c05c6ef1f5eebb528732891748aa4fd06e25",
+      "recorded_release_sha256": "5877fa572bd29b0a82e9ec12ddb1c05c6ef1f5eebb528732891748aa4fd06e25",
+      "matches_release": true
+    },
+    {
+      "path": "host/sdram_client/client.py",
+      "sha256": "0b158b101b74afee20ef89c27a8c1ec5dc08bb06991a7c2a9c83ef0838a05a96",
+      "recorded_release_sha256": "0b158b101b74afee20ef89c27a8c1ec5dc08bb06991a7c2a9c83ef0838a05a96",
+      "matches_release": true
+    },
+    {
+      "path": "host/sdram_client/mock.py",
+      "sha256": "de998db634f7741c620fa9303eb70123810b6368d7bcaea65adcdc6db65283fe",
+      "recorded_release_sha256": "de998db634f7741c620fa9303eb70123810b6368d7bcaea65adcdc6db65283fe",
+      "matches_release": true
+    },
+    {
+      "path": "host/sdram_client/transport.py",
+      "sha256": "b137217f5b99bc13c5ab16f637020b5162458cee01e135b23a39853bf2a5ad55",
+      "recorded_release_sha256": "b137217f5b99bc13c5ab16f637020b5162458cee01e135b23a39853bf2a5ad55",
+      "matches_release": true
+    },
+    {
+      "path": "scripts/benchmark.py",
+      "sha256": "6ca75cafe53e3b1377280557fa24127df06524aa8ad865c89cefca5ca443785c",
+      "recorded_release_sha256": "6ca75cafe53e3b1377280557fa24127df06524aa8ad865c89cefca5ca443785c",
+      "matches_release": true
+    },
+    {
+      "path": "scripts/build.ps1",
+      "sha256": "7ca1a3e4f597d5f7685432914e58e003ed81b75cc56461d31e14d17bd4b7ad7d",
+      "recorded_release_sha256": "7ca1a3e4f597d5f7685432914e58e003ed81b75cc56461d31e14d17bd4b7ad7d",
+      "matches_release": true
+    },
+    {
+      "path": "scripts/hardware_acceptance.py",
+      "sha256": "a9ba6c619f7cdb56993434de2930843695d46f3092bf33ab79677123e6970cb7",
+      "recorded_release_sha256": "a9ba6c619f7cdb56993434de2930843695d46f3092bf33ab79677123e6970cb7",
+      "matches_release": true
+    },
+    {
+      "path": "scripts/test.ps1",
+      "sha256": "8a04838be351af22e6d0f011fa08ec5b6621c65f8c55af5c9f080b30b7e1245a",
+      "recorded_release_sha256": "8a04838be351af22e6d0f011fa08ec5b6621c65f8c55af5c9f080b30b7e1245a",
+      "matches_release": true
+    },
+    {
+      "path": "scripts/test_jtag.ps1",
+      "sha256": "ecf2dcb4a55c34ccb704f1ea29e5c73b46ce070d73cd23b276f3d6e2cadc2bef",
+      "recorded_release_sha256": "ecf2dcb4a55c34ccb704f1ea29e5c73b46ce070d73cd23b276f3d6e2cadc2bef",
+      "matches_release": true
+    },
+    {
+      "path": "scripts/timing_report.tcl",
+      "sha256": "c56ea653d28b0a940677036bcbdced427786e24af479b1652e50e5b36d9cec69",
+      "recorded_release_sha256": "c56ea653d28b0a940677036bcbdced427786e24af479b1652e50e5b36d9cec69",
+      "matches_release": true
+    },
+    {
+      "path": "tests/tb_board.sv",
+      "sha256": "525343c798552535f8982937ee01be4e2f3efe8dbcb6fe895f099baa5e265b0e",
+      "recorded_release_sha256": "525343c798552535f8982937ee01be4e2f3efe8dbcb6fe895f099baa5e265b0e",
+      "matches_release": true
+    },
+    {
+      "path": "tests/tb_controller.sv",
+      "sha256": "7f92097e6da37f6e0b17b82761a098980114875d7252026293bd008071f5b2bc",
+      "recorded_release_sha256": "7f92097e6da37f6e0b17b82761a098980114875d7252026293bd008071f5b2bc",
+      "matches_release": true
+    },
+    {
+      "path": "tests/tb_jtag_adapters.sv",
+      "sha256": "db5380bbece31003fa603d35b0ed9c0a985cf11f7eca130c6cd20a30700887cc",
+      "recorded_release_sha256": "db5380bbece31003fa603d35b0ed9c0a985cf11f7eca130c6cd20a30700887cc",
+      "matches_release": true
+    },
+    {
+      "path": "tests/tb_performance.sv",
+      "sha256": "7edc64fb8aa3bb9abcbf0f481601e2ca3f6df09340b1394dad525a9ea2bcb1a6",
+      "recorded_release_sha256": "7edc64fb8aa3bb9abcbf0f481601e2ca3f6df09340b1394dad525a9ea2bcb1a6",
+      "matches_release": true
+    },
+    {
+      "path": "tests/tb_tester.sv",
+      "sha256": "5c048b496259f3f02b4f29f2cb32299c34b690a063eff07a64a413b20b652484",
+      "recorded_release_sha256": "5c048b496259f3f02b4f29f2cb32299c34b690a063eff07a64a413b20b652484",
+      "matches_release": true
+    },
+    {
+      "path": "tests/test_cli.py",
+      "sha256": "9c36db347c6210a7158ebef90a379c8b887ca16618ceaf50e28bee277de8bbd8",
+      "recorded_release_sha256": "9c36db347c6210a7158ebef90a379c8b887ca16618ceaf50e28bee277de8bbd8",
+      "matches_release": true
+    },
+    {
+      "path": "tests/test_client.py",
+      "sha256": "99b69290981b02b371051f500b29ce6764c09b776ddc90949e1fa03768fcf5cb",
+      "recorded_release_sha256": "99b69290981b02b371051f500b29ce6764c09b776ddc90949e1fa03768fcf5cb",
+      "matches_release": true
+    },
+    {
+      "path": "tests/test_prepare_jtag.tcl",
+      "sha256": "9c1f6bbff834a9faee30f91aadb1b5a37f41957b051c7c32c0ed0852ff0d78c5",
+      "recorded_release_sha256": "9c1f6bbff834a9faee30f91aadb1b5a37f41957b051c7c32c0ed0852ff0d78c5",
+      "matches_release": true
+    },
+    {
+      "path": "tests/test_transport.py",
+      "sha256": "8344389c61ec7f453026a5f74ca1ce3b618bb28c3f1c90b94851a32c351d300f",
+      "recorded_release_sha256": "8344389c61ec7f453026a5f74ca1ce3b618bb28c3f1c90b94851a32c351d300f",
+      "matches_release": true
+    }
+  ],
+  "documents": [
+    {
+      "path": "docs/INTERFACE.md",
+      "sha256": "94160b40442fe1c0fe05e1315ec95dfa93481f75e95c2bfa560327c365d4bfd8"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "sha256": "814f87cbb1d0579079ee6343ae3d8284613fb8d2591bdc4f8b701cdc1a443822"
+    },
+    {
+      "path": "docs/PERFORMANCE.md",
+      "sha256": "d37e538f6f628bbdda9e4e5f6b30a1954fe9074874ae28c24561fc8c019104b0"
+    },
+    {
+      "path": "docs/TIMING.md",
+      "sha256": "f9b98560642b558b414b6b76ed4b4d9cadfc9d2780ee88ebce2225826b2936df"
+    },
+    {
+      "path": "docs/validation-warnings/source-manifest.json",
+      "sha256": "ca1a76c5d69f64d6df8ed1423d27116453be0799ac3cc57660279b3a7d7c4020"
+    }
+  ]
+}
