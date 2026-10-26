@@ -1,0 +1,32 @@
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Elaboration
+    Info: Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+    Info: Copyright (C) 2024  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and any partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details, at
+    Info: https://fpgasoftware.intel.com/eula.
+    Info: Processing started: Wed Oct 14 15:51:34 2026
+Info: Command: quartus_map invalid --analysis_and_elaboration
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 14 of the 14 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file /raincloud/github/sdram_tester_working/rtl/library/sdram_controller.sv
+    Info (12023): Found entity 1: sdram_controller File: D:/RAINCloud/GitHub/SDRAM_Tester_Working/rtl/library/sdram_controller.sv Line: 80
+Info (12127): Elaborating entity "sdram_controller" for the top level hierarchy
+Warning (10230): Verilog HDL assignment warning at sdram_controller.sv(188): truncated value with size 32 to match size of target (11) File: D:/RAINCloud/GitHub/SDRAM_Tester_Working/rtl/library/sdram_controller.sv Line: 188
+Error (12006): Node instance "invalid_cas.invalid" instantiates undefined entity "SDRAM_CONFIG_ERROR__CAS_must_be_2_or_3". Ensure that required library paths are specified correctly, define the specified entity, or change the instantiation. If this entity represents Intel FPGA or third-party IP, generate the synthesis files for the IP. File: D:/RAINCloud/GitHub/SDRAM_Tester_Working/rtl/library/sdram_controller.sv Line: 144
+Error: Quartus Prime Analysis & Elaboration was unsuccessful. 1 error, 2 warnings
+    Error: Peak virtual memory: 4737 megabytes
+    Error: Processing ended: Wed Oct 14 15:51:53 2026
+    Error: Elapsed time: 00:00:19
+    Error: Total CPU time (on all processors): 00:00:02

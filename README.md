@@ -1,3 +1,20 @@
+# FPGA computer projects
+
+| Project | Description | Platform / status |
+| --- | --- | --- |
+| [BE 8-bit computer](BE_8Bit_Computer/) | Original FPGA adaptation of Ben Eater's educational computer. | Existing Verilog and Quartus schematic design; preserved here. |
+| [RAINCloud SAP](RAINCloud_SAP/) | Updated structural 8-bit Simple-As-Possible computer, program image, tests and architecture guide. | DE10-Lite / MAX 10; historical simulation and timing results; board qualification pending. |
+| [RAINCloud SDRAM](RAINCloud_SDRAM/) | Reusable controller 1.2.1, tester/register engine, DE10-Lite top and Python host API. | 50 MHz / CL3 hardware profile; portable tests and dated validation evidence. |
+
+Each RAINCloud folder is a self-contained source snapshot with build instructions,
+provenance and validation limits. They are separate projects; placing them together
+does not integrate SDRAM into SAP. SAP's matrix-accelerator material is a proposal
+and software reference, not qualified hardware. Licensing is folder/file-specific:
+[SAP notices](RAINCloud_SAP/NOTICE.md), [SDRAM MIT license](RAINCloud_SDRAM/LICENSE).
+No new license is assigned to the existing BE project.
+
+---
+
 <div style="direction: ltr; border-width: 100%;">
 <div style="direction: ltr; margin-top: 0in; margin-left: 0in; width: 7.6041in;">
 <div style="direction: ltr; margin-top: 0in; margin-left: 0in; width: 7.6041in;">

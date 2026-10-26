@@ -1,0 +1,5 @@
+# RAINCloud Digital | RAINCloud_SAP
+# Original SAP design and codebase: J. Campbell.
+#
+QUARTUS_VERSION = "23.1"
+PROJECT_REVISION = "RAINCloud_SAP"

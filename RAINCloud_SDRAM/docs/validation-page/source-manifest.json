@@ -1,0 +1,54 @@
+{
+  "recorded_at": "2026-10-14T15:17:37.768205-04:00",
+  "branch": "work/sdram-tester",
+  "base_commit": "ed6d0eb7dd0a833e767ce2f699c9b9ae83219b81",
+  "source_state": "Local uncommitted implementation. firmware_inputs_sha256 records the accepted build inputs; subsequent comment-only source revisions are recorded separately in post_validation_documentation.",
+  "build_id": "26101402",
+  "api_version": "1.1",
+  "quartus": "23.1std.1 Build 993 05/14/2024 SC Lite Edition",
+  "device": "10M50DAF484C7G",
+  "sof_path": "quartus_project/output_files/SDRAM_Test_Harness.sof",
+  "sof_sha256": "6369891506d8d1269fd34be7219a9963ba8942ce6cf46ae66e9afb26a44a8cb4",
+  "firmware_inputs_sha256": {
+    "constraints/de10_lite_50mhz.sdc": "0fc428f650da91e55641c461bf701df5568522c8f1b58aff468adf043e48b7a6",
+    "quartus_project/SDRAM_Test_Harness.qpf": "4b6780050ec2bcbb8c7e3c34619a9912c50bdd0661910c5df635eb9b748bb821",
+    "quartus_project/SDRAM_Test_Harness.qsf": "a2e18205f08593838045c8e2fcd8b1dc33dcc0c8e58783e14979a23c15babc72",
+    "rtl/board/de10_clock.v": "d9cb4078fd2b562e8b9f2620ed8042c93cbfabc56499213f62ab4ef78bbd4e13",
+    "rtl/board/sdram_tester_top.sv": "9d07dd849508efd74bc2def81eb9771c9a06af95b6ccc9662b494c511fc622e5",
+    "rtl/library/sdram_controller.sv": "e930bf93aac70f186f5bcf7bafad099b21b71291c487e29ca5f5fe6583260fd5",
+    "rtl/tester/tester_regs.sv": "42aa04c2d28ce2518f5048204f30a2f13bf705105c66ec7700d0410058126f03",
+    "scripts/create_jtag.tcl": "924d4bc9352624902cb4ab2b9f5dfbbcaf47a20fc453dbff7601b4e247575942",
+    "src/ip/jtag_bridge.qsys": "4a9169f8caf715ed8b4926b5a93d267d5099d5c88d8a4a9a93fe0736e286f1cc"
+  },
+  "host_and_validation_sources_sha256": {
+    "host/bridge.tcl": "f69f5f78dbac808acd6b8d68097137b59053de6d9cfc64912cb03bc33b87454c",
+    "host/sdram_client/__init__.py": "1bd328a2f7c6846969b55cbb50cd86d63875300afc743f5aa5518599820a39f5",
+    "host/sdram_client/__main__.py": "5877fa572bd29b0a82e9ec12ddb1c05c6ef1f5eebb528732891748aa4fd06e25",
+    "host/sdram_client/client.py": "043026a7a3f010467e69a99de004eea404cb367a0d51733223aa3013a73cbbca",
+    "host/sdram_client/mock.py": "c5bad6a95bf56b1bf4f25f26825358b21400097342f2e0c6c84fbdfb20df6028",
+    "host/sdram_client/transport.py": "b137217f5b99bc13c5ab16f637020b5162458cee01e135b23a39853bf2a5ad55",
+    "scripts/build.ps1": "e09f041c0aaa787c4cd6c579c305e785bd31d04895e5973e01c65a7e11e89885",
+    "scripts/hardware_acceptance.py": "a9ba6c619f7cdb56993434de2930843695d46f3092bf33ab79677123e6970cb7",
+    "scripts/test.ps1": "ed6820cfeae76362bce2adafa62aac8cd84188d537131621d9768fde2d2eb320",
+    "scripts/timing_report.tcl": "c56ea653d28b0a940677036bcbdced427786e24af479b1652e50e5b36d9cec69",
+    "tests/tb_board.sv": "2c93fa37ab419758a06e2762dafc97fb07217f2064aa469eec12909548e58581",
+    "tests/tb_controller.sv": "5df129c7fbe6b38b862c84bd0044951b7c88ecf12185ac410547aaf6ed464181",
+    "tests/tb_tester.sv": "675008fc266a98374767ea10b06b43c9a247da2bf2cc0bb0cbef80b379beac3c",
+    "tests/test_cli.py": "9c36db347c6210a7158ebef90a379c8b887ca16618ceaf50e28bee277de8bbd8",
+    "tests/test_client.py": "2277bef92f4ea02e9c1128614b0a414015378dc530725e9add7e16429279eba9",
+    "tests/test_transport.py": "8344389c61ec7f453026a5f74ca1ce3b618bb28c3f1c90b94851a32c351d300f"
+  },
+  "generated_ip_note": "Generated JTAG synthesis products are ignored; regenerate from saved Qsys with the recorded Quartus version.",
+  "post_validation_documentation": {
+    "rtl/library/sdram_controller.sv": {
+      "recorded_at": "2026-10-14T15:24:57.360979-04:00",
+      "raincloud_version": "1.1",
+      "validated_source_sha256": "e930bf93aac70f186f5bcf7bafad099b21b71291c487e29ca5f5fe6583260fd5",
+      "documented_source_sha256": "f50d4d24e69dac04cfbe75eec7872fb6c3d5b6a5816f80f662a4d4259da30596",
+      "non_comment_token_sha256": "e929199baebabe91d8948c67d6f90629692cddbc8c2dfcf6703171ac24df5a43",
+      "token_count": 1909,
+      "unchanged_executable_tokens": true,
+      "notes": "RAINCloud release header and implementation comments only. Accepted SOF unchanged; no rebuild or reprogramming required."
+    }
+  }
+}

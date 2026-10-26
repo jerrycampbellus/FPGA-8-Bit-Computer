@@ -1,0 +1,25 @@
+2026.10.14.16:21:39 Info: Saving generation log to D:/RAINCloud/GitHub/SDRAM_Tester_Working/src/ip/jtag_bridge/jtag_bridge_generation.rpt
+2026.10.14.16:21:39 Info: Starting: <b>Create HDL design files for synthesis</b>
+2026.10.14.16:21:39 Info: qsys-generate D:\RAINCloud\GitHub\SDRAM_Tester_Working\src\ip\jtag_bridge.qsys --synthesis=VERILOG --output-directory=D:\RAINCloud\GitHub\SDRAM_Tester_Working\src\ip\jtag_bridge\synthesis --family="MAX 10" --part=10M50DAF484C7G
+2026.10.14.16:21:39 Info: Loading ip/jtag_bridge.qsys
+2026.10.14.16:21:40 Info: Reading input file
+2026.10.14.16:21:40 Info: Adding master [altera_jtag_avalon_master 23.1]
+2026.10.14.16:21:40 Info: Parameterizing module master
+2026.10.14.16:21:40 Info: Building connections
+2026.10.14.16:21:40 Info: Parameterizing connections
+2026.10.14.16:21:40 Info: Validating
+2026.10.14.16:21:40 Info: Done reading input file
+2026.10.14.16:21:41 Info: jtag_bridge: Generating <b>jtag_bridge</b> "<b>jtag_bridge</b>" for QUARTUS_SYNTH
+2026.10.14.16:21:43 Info: master: "<b>jtag_bridge</b>" instantiated <b>altera_jtag_avalon_master</b> "<b>master</b>"
+2026.10.14.16:21:43 Info: jtag_phy_embedded_in_jtag_master: "<b>master</b>" instantiated <b>altera_jtag_dc_streaming</b> "<b>jtag_phy_embedded_in_jtag_master</b>"
+2026.10.14.16:21:43 Info: timing_adt: "<b>master</b>" instantiated <b>timing_adapter</b> "<b>timing_adt</b>"
+2026.10.14.16:21:43 Info: fifo: "<b>master</b>" instantiated <b>altera_avalon_sc_fifo</b> "<b>fifo</b>"
+2026.10.14.16:21:43 Info: b2p: "<b>master</b>" instantiated <b>altera_avalon_st_bytes_to_packets</b> "<b>b2p</b>"
+2026.10.14.16:21:43 Info: p2b: "<b>master</b>" instantiated <b>altera_avalon_st_packets_to_bytes</b> "<b>p2b</b>"
+2026.10.14.16:21:43 Info: transacto: "<b>master</b>" instantiated <b>altera_avalon_packets_to_master</b> "<b>transacto</b>"
+2026.10.14.16:21:43 Info: b2p_adapter: "<b>master</b>" instantiated <b>channel_adapter</b> "<b>b2p_adapter</b>"
+2026.10.14.16:21:43 Info: p2b_adapter: "<b>master</b>" instantiated <b>channel_adapter</b> "<b>p2b_adapter</b>"
+2026.10.14.16:21:43 Info: rst_controller: "<b>master</b>" instantiated <b>altera_reset_controller</b> "<b>rst_controller</b>"
+2026.10.14.16:21:43 Info: jtag_bridge: Done "<b>jtag_bridge</b>" with 11 modules, 23 files
+2026.10.14.16:21:43 Info: qsys-generate succeeded.
+2026.10.14.16:21:43 Info: Finished: <b>Create HDL design files for synthesis</b>

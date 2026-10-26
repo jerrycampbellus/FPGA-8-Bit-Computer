@@ -1,0 +1,7 @@
+| State     | Entry condition                     | Exit/Next condition                            |
+| --------- | ----------------------------------- | ---------------------------------------------- |
+| SET\_MODE | Power-up/reset, or SW\[0]=1         | SW\[0]=0 → READY                               |
+| READY     | SW\[0]=0                            | Key\[1] + all config'd → RUN<br>SW\[0]=1 → SET |
+| RUN       | From READY, triggers sequencer/test | test\_pass → PASS<br>test\_fail → FAIL         |
+| PASS      | From RUN/test\_pass                 | Key\[1] → READY                                |
+| FAIL      | From RUN/test\_fail                 | Key\[1] → READY                                |

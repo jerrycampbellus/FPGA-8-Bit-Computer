@@ -1,0 +1,28 @@
++---------------------+
+; Unconstrained Paths ;
++---------------------+
++------------------------------------------------+
+; Unconstrained Paths Summary                    ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 0     ; 0    ;
+; Unconstrained Input Port Paths  ; 0     ; 0    ;
+; Unconstrained Output Ports      ; 0     ; 0    ;
+; Unconstrained Output Port Paths ; 0     ; 0    ;
++---------------------------------+-------+------+
+
++---------------------------------------------------------------------------------------------------------+
+; Clock Status Summary                                                                                    ;
++---------------------------------------+---------------------------------------+-----------+-------------+
+; Target                                ; Clock                                 ; Type      ; Status      ;
++---------------------------------------+---------------------------------------+-----------+-------------+
+; DRAM_CLK                              ; sdram_clk                             ; Generated ; Constrained ;
+; MAX10_CLK1_50                         ; ref_clk                               ; Base      ; Constrained ;
+; altera_reserved_tck                   ; altera_reserved_tck                   ; Base      ; Constrained ;
+; clocks|pll|auto_generated|pll1|clk[0] ; clocks|pll|auto_generated|pll1|clk[0] ; Generated ; Constrained ;
+; clocks|pll|auto_generated|pll1|clk[1] ; clocks|pll|auto_generated|pll1|clk[1] ; Generated ; Constrained ;
++---------------------------------------+---------------------------------------+-----------+-------------+
+

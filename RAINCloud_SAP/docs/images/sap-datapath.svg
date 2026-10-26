@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1030" viewBox="0 0 1500 1030" role="img" aria-labelledby="title desc">
+<title id="title">RAINCloud SAP CPU datapath</title><desc id="desc">Six gated source buses feed data_bus. Program counter, RAM, instruction register, A and B registers have separate read and load paths. MAR supplies the four-bit RAM address. A and B feed the ALU directly. The bus loads MAR, output register, and the display sampler. Clock/reset/control and diagnostic taps are grouped in the system overview.</desc>
+<defs>
+<marker id="data" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#087f8c"/></marker>
+<marker id="clock" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6d58a5"/></marker>
+<marker id="control" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#ac620e"/></marker>
+<marker id="view" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#326fa8"/></marker>
+</defs>
+<rect x="0" y="0" width="1500" height="1030" rx="0" fill="#f5f8fc" stroke="none" stroke-width="1.5"/>
+<rect x="0" y="0" width="1500" height="150" rx="0" fill="#10263e" stroke="none" stroke-width="1.5"/>
+<text x="42" y="36" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#86d6db">RAINCloud Digital  /  J. Campbell</text>
+<text x="42" y="84" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="38" font-weight="650" text-anchor="start" fill="#ffffff">Inside the SAP datapath</text>
+<text x="42" y="119" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" font-weight="400" text-anchor="start" fill="#c8d7e8">Actual module boundaries and signal directions  •  See ARCHITECTURE.md for control timing</text>
+<text x="1458" y="37" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="16" font-weight="400" text-anchor="end" fill="#c8d7e8">CPU DATA ROUTES</text>
+<path d="M 970 250 V 185 H 1400 V 722 H 1285" fill="none" stroke="#087f8c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#data)"/>
+<text x="1190" y="176" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#087f8c">a_value[7:0]</text>
+<path d="M 1360 305 H 1440 V 765 H 1285" fill="none" stroke="#087f8c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#data)"/>
+<text x="1300" y="750" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#087f8c">b_value[7:0]</text>
+<path d="M 60 735 H 30 V 212 H 440 V 250" fill="none" stroke="#087f8c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#data)"/>
+<text x="62" y="203" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#087f8c">ram_address[3:0]  •  dedicated address path</text>
+<path d="M 170 380 V 465" fill="none" stroke="#087f8c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#data)" marker-start="url(#data)"/>
+<text x="188" y="405" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#087f8c">pc_bus[7:0]</text>
+<text x="188" y="429" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#087f8c">PC → bus</text>
+<text x="188" y="453" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#087f8c">bus[3:0] → PC (jump)</text>
+<path d="M 440 380 V 465" fill="none" stroke="#087f8c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#data)" marker-start="url(#data)"/>
+<text x="458" y="405" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#087f8c">ram_bus[7:0]</text>
+<text x="458" y="429" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#087f8c">RAM read → bus</text>
+<text x="458" y="453" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#087f8c">bus → RAM write</text>
+<path d="M 710 380 V 465" fill="none" stroke="#087f8c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#data)" marker-start="url(#data)"/>
+<text x="728" y="405" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#087f8c">instruction_bus[7:0]</text>
+<text x="728" y="429" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#087f8c">Operand → bus</text>
+<text x="728" y="453" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#087f8c">bus → instruction</text>
+<path d="M 980 380 V 465" fill="none" stroke="#087f8c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#data)" marker-start="url(#data)"/>
+<text x="998" y="405" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#087f8c">a_bus[7:0]</text>
+<text x="998" y="429" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#087f8c">A → bus</text>
+<text x="998" y="453" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#087f8c">bus → A</text>
+<path d="M 1250 380 V 465" fill="none" stroke="#087f8c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#data)" marker-start="url(#data)"/>
+<text x="1268" y="405" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#087f8c">b_bus[7:0]*</text>
+<text x="1268" y="429" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#087f8c">B → bus*</text>
+<text x="1268" y="453" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#087f8c">bus → B</text>
+<rect x="60" y="465" width="1300" height="80" rx="13" fill="#d5eff0" stroke="#6bbac1" stroke-width="1.5"/>
+<text x="91" y="499" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="25" font-weight="700" text-anchor="start" fill="#087f8c">data_bus[7:0]</text>
+<text x="91" y="525" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#17304a">One selected source; disabled sources and idle bus = 0</text>
+<text x="1329" y="514" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" font-weight="400" text-anchor="end" fill="#17304a">ALU | A | B | instruction operand | PC | RAM</text>
+<path d="M 170 545 V 660" fill="none" stroke="#087f8c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#data)"/>
+<text x="188" y="590" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#087f8c">data_bus[3:0]</text>
+<text x="188" y="615" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#087f8c">Load RAM address</text>
+<path d="M 495 545 V 660" fill="none" stroke="#087f8c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#data)"/>
+<text x="513" y="590" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#087f8c">data_bus[7:0]</text>
+<text x="513" y="615" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#087f8c">Capture OUT byte</text>
+<path d="M 788 545 V 660" fill="none" stroke="#087f8c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#data)"/>
+<text x="806" y="590" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#087f8c">data_bus[7:0]</text>
+<text x="806" y="615" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#087f8c">Sample bus for display</text>
+<path d="M 1115 660 V 545" fill="none" stroke="#087f8c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#data)"/>
+<text x="1133" y="590" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#087f8c">alu_bus[7:0]</text>
+<text x="1133" y="615" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#087f8c">ADD / SUB result → bus</text>
+<rect x="60" y="250" width="220" height="130" rx="14" fill="#ffffff" stroke="#cedbe6" stroke-width="1.5"/>
+<rect x="61" y="267" width="4" height="96" rx="2" fill="#087f8c" stroke="none" stroke-width="1.5"/>
+<text x="80" y="285" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" font-weight="650" text-anchor="start" fill="#17304a">Program_Counter</text>
+<text x="80" y="314" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#52677c">4-bit PC; wraps at 16</text>
+<text x="80" y="339" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#52677c">Count / jump load</text>
+<rect x="330" y="250" width="220" height="130" rx="14" fill="#ffffff" stroke="#cedbe6" stroke-width="1.5"/>
+<rect x="331" y="267" width="4" height="96" rx="2" fill="#087f8c" stroke="none" stroke-width="1.5"/>
+<text x="350" y="285" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" font-weight="650" text-anchor="start" fill="#17304a">RAM</text>
+<text x="350" y="314" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#52677c">16 × 8 shared memory</text>
+<text x="350" y="339" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#52677c">Instructions + data</text>
+<rect x="600" y="250" width="220" height="130" rx="14" fill="#ffffff" stroke="#cedbe6" stroke-width="1.5"/>
+<rect x="601" y="267" width="4" height="96" rx="2" fill="#087f8c" stroke="none" stroke-width="1.5"/>
+<text x="620" y="285" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="18" font-weight="650" text-anchor="start" fill="#17304a">Instruction_Register</text>
+<text x="620" y="314" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#52677c">8-bit instruction</text>
+<text x="620" y="339" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#52677c">Opcode + operand</text>
+<rect x="870" y="250" width="220" height="130" rx="14" fill="#ffffff" stroke="#cedbe6" stroke-width="1.5"/>
+<rect x="871" y="267" width="4" height="96" rx="2" fill="#087f8c" stroke="none" stroke-width="1.5"/>
+<text x="890" y="285" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" font-weight="650" text-anchor="start" fill="#17304a">A_Register</text>
+<text x="890" y="314" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#52677c">8-bit accumulator</text>
+<text x="890" y="339" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#52677c">ALU operand A</text>
+<rect x="1140" y="250" width="220" height="130" rx="14" fill="#ffffff" stroke="#cedbe6" stroke-width="1.5"/>
+<rect x="1141" y="267" width="4" height="96" rx="2" fill="#087f8c" stroke="none" stroke-width="1.5"/>
+<text x="1160" y="285" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" font-weight="650" text-anchor="start" fill="#17304a">B_Register</text>
+<text x="1160" y="314" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#52677c">8-bit temporary value</text>
+<text x="1160" y="339" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#52677c">ALU operand B</text>
+<rect x="60" y="660" width="220" height="150" rx="14" fill="#ffffff" stroke="#cedbe6" stroke-width="1.5"/>
+<rect x="61" y="677" width="4" height="116" rx="2" fill="#087f8c" stroke="none" stroke-width="1.5"/>
+<text x="80" y="695" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" font-weight="650" text-anchor="start" fill="#17304a">MAR</text>
+<text x="80" y="724" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#52677c">Memory address register</text>
+<text x="80" y="749" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#52677c">Capture low bus nibble</text>
+<text x="80" y="774" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#52677c">Supply RAM address</text>
+<rect x="370" y="660" width="250" height="150" rx="14" fill="#ffffff" stroke="#cedbe6" stroke-width="1.5"/>
+<rect x="371" y="677" width="4" height="116" rx="2" fill="#087f8c" stroke="none" stroke-width="1.5"/>
+<text x="390" y="695" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="21" font-weight="650" text-anchor="start" fill="#17304a">Output_Register</text>
+<text x="390" y="724" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#52677c">Capture 8-bit OUT value</text>
+<text x="390" y="749" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#52677c">Signed / unsigned</text>
+<text x="390" y="774" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#52677c">Decimal / hexadecimal</text>
+<rect x="650" y="660" width="275" height="150" rx="14" fill="#ffffff" stroke="#cedbe6" stroke-width="1.5"/>
+<rect x="651" y="677" width="4" height="116" rx="2" fill="#326fa8" stroke="none" stroke-width="1.5"/>
+<text x="670" y="695" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="21" font-weight="650" text-anchor="start" fill="#17304a">Bus_Display_Register</text>
+<text x="670" y="724" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#52677c">8-bit diagnostic register</text>
+<text x="670" y="749" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#52677c">Samples on CPU rise</text>
+<text x="670" y="774" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#52677c">Feeds JC_Display</text>
+<rect x="955" y="660" width="330" height="150" rx="14" fill="#ffffff" stroke="#cedbe6" stroke-width="1.5"/>
+<rect x="956" y="677" width="4" height="116" rx="2" fill="#087f8c" stroke="none" stroke-width="1.5"/>
+<text x="975" y="695" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" font-weight="650" text-anchor="start" fill="#17304a">ALU + retained flags</text>
+<text x="975" y="724" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#52677c">8-bit ADD / SUB</text>
+<text x="975" y="749" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#52677c">Zero + carry / borrow</text>
+<text x="975" y="774" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="start" fill="#52677c">Flags captured with writeback</text>
+<text x="60" y="866" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" font-weight="650" text-anchor="start" fill="#17304a">Reading this diagram</text>
+<text x="60" y="901" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" font-weight="400" text-anchor="start" fill="#52677c">Double arrows denote separate output-enable and load paths, not physical internal tri-state drivers.</text>
+<text x="60" y="932" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" font-weight="400" text-anchor="start" fill="#52677c">PC and instruction outputs are zero-extended to 8 bits. *B output exists but is unused by current microcode.</text>
+<text x="60" y="963" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" font-weight="400" text-anchor="start" fill="#52677c">Control, clock, reset, and JC_Display observation taps are documented separately to keep the datapath readable.</text>
+<text x="60" y="1005" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#52677c">RAINCloud Digital  •  Original SAP design and codebase: J. Campbell</text>
+</svg>
